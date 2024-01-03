@@ -3,9 +3,9 @@ import arraystring.checktwostingsarraysequivalent.CheckIfTwoStringArraysAreEquiv
 import arraystring.defangingipaddress.DefangingIPAddress;
 import arraystring.findwordscontainingcharacter.FindWordsContainingCharacter;
 import arraystring.fizzbuzz.FizzBuzz;
+import arraystring.howmanynumbersaresmaller.HowManyNumbersAreSmaller;
 import arraystring.jewelsandstones.JewelsAndStones;
 import arraystring.maxnumberofwords.MaximumNumberOfWords;
-import arraystring.monotonicarray.MonotonicArray;
 import arraystring.movezeroes.MoveZeroes;
 import arraystring.arthmeticprogression.ArithmeticProgression;
 import arraystring.finddifferences.FindTheDifference;
@@ -233,10 +233,10 @@ public class Main {
         String sentence = "thtequickbrownfoxjumpsoverthelazydog";
         System.out.println(CheckIfSentenceIsPangram.checkIfPangram(sentence));
 
-        //Array -> MonotonicArray
-        System.out.println("MonotonicArray");
-        int[] nums11 = {1,2,2,3};
-        System.out.println(MonotonicArray.isMonotonic(nums11));
+        //Array -> HowManyNumbersAreSmaller
+        System.out.println("HowManyNumbersAreSmaller");
+        int[] numbers = {7,7,7,7};
+        System.out.println(Arrays.toString(HowManyNumbersAreSmaller.smallerNumbersThanCurrent(numbers)));
 
 
 
