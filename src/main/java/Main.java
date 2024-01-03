@@ -1,0 +1,282 @@
+import arraystring.checkifsentenceispangram.CheckIfSentenceIsPangram;
+import arraystring.checktwostingsarraysequivalent.CheckIfTwoStringArraysAreEquivalent;
+import arraystring.defangingipaddress.DefangingIPAddress;
+import arraystring.findwordscontainingcharacter.FindWordsContainingCharacter;
+import arraystring.fizzbuzz.FizzBuzz;
+import arraystring.jewelsandstones.JewelsAndStones;
+import arraystring.maxnumberofwords.MaximumNumberOfWords;
+import arraystring.monotonicarray.MonotonicArray;
+import arraystring.movezeroes.MoveZeroes;
+import arraystring.arthmeticprogression.ArithmeticProgression;
+import arraystring.finddifferences.FindTheDifference;
+import arraystring.findindex.FindIndexOfFirstString;
+import arraystring.lengthoflasword.LengthLastWord;
+import arraystring.majorityelement.MajorityElement;
+import arraystring.maximumingeneratedarray.GetMaximumInGeneratedArray;
+import arraystring.mergesortedarray.MergeSortedArray;
+import arraystring.mergestringsalternately.MergeStringsAlternately;
+import arraystring.numberofgoodpairs.NumberOfGoodPairs;
+import arraystring.removeduplicates.RemoveDuplicates;
+import arraystring.removeelement.RemoveElement;
+import arraystring.signproductarray.SignProductArray;
+import arraystring.sortpeople.SortThePeople;
+import arraystring.tolowercase.ToLowerCase;
+import arraystring.validanagram.ValidAnagram;
+import bitmanipulation.singlenumber.SingleNumber;
+import math.countoddnumbers.CountOddNumbers;
+import math.palindromenumber.PalindromeNumber;
+import math.plusone.PlusOne;
+import matrix.matrixdiagonalsum.MatrixDiagonalSum;
+import matrix.richestcustomerwealth.RichestCustomerWealth;
+import twopointers.issubsequence.IsSubsequence;
+import twopointers.validpalindrome.ValidPalindrome;
+
+import java.util.Arrays;
+
+public class Main {
+
+    public static void main(String[] args) {
+
+        //Array -> MergeSortedArray
+        System.out.println("MergeSortedArray");
+        int m = 3;
+        int n = 2;
+        int s = m + n;
+        int[] nums1 = {1, 5, 8, 0, 0};
+        int[] nums2 = {3, 6};
+        MergeSortedArray.merge(nums1, m, nums2, n);
+        System.out.println();
+
+        //Array -> RemoveElement
+        System.out.println("RemoveElement");
+        int val = 3;
+        int[] nums = {3,2,2,3};
+        RemoveElement.removeElement1(nums, val);
+        System.out.println();
+        RemoveElement.removeElement2(nums, val);
+        System.out.println();
+
+        //Array -> RemoveDuplicates
+        System.out.println("RemoveDuplicates");
+        int[] nums3 = {0,0,1,1,1,2,2,3,3,4};
+        RemoveDuplicates.removeDuplicates1(nums3);
+        System.out.println();
+
+        //Array -> MajorityElement
+        System.out.println("MajorityElement");
+        int[] nums4 = {0,0,1,1,1,2,2,3,3,4};
+        MajorityElement.majorityElement1(nums4);
+        MajorityElement.majorityElement2(nums4);
+
+        //String -> FindIndexOfFirstString (Find the Index of the First Occurrence in a String)
+        System.out.println("FindIndexOfFirstString");
+        String haystack = "jaolajestemolamam";
+        String needle = "mam";
+        System.out.println(FindIndexOfFirstString.strStr(haystack, needle));
+
+        //String -> LengthLastWord (Length of Last Word)
+        System.out.println("LengthLastWord");
+        String word = "Hello World";
+        System.out.println(LengthLastWord.lengthOfLastWord1(word));
+        System.out.println(LengthLastWord.lengthOfLastWord2(word));
+
+        //Two Pointers -> ValidPalindrome
+        System.out.println("ValidPalindrome");
+        String string = "A man, a plan, a -canal: Panama";
+        System.out.println(ValidPalindrome.isPalindrome1(string));
+        System.out.println(ValidPalindrome.isPalindrome2(string));
+
+        //Two Pointers -> IsSubsequence
+        System.out.println("IsSubsequence");
+//        String a = "abc";
+        String a = "aa";
+        String b = "acfb";
+        System.out.println(IsSubsequence.isSubsequence1(a, b));
+        System.out.println(IsSubsequence.isSubsequence2(a, b));
+
+        //Bit Manipulation -> SingleNumber
+        System.out.println("SingleNumber");
+//        int[] ints = {4,1,2,1,2};
+        int[] ints = {2,2,1};
+        System.out.println(SingleNumber.singleNumber1(ints));
+        System.out.println(SingleNumber.singleNumber2(ints));
+
+        //Math -> PalndromeNumber
+        System.out.println("PalindromeNumber");
+        int x = 10;
+        System.out.println(PalindromeNumber.isPalindrome(x));
+
+        //Math -> PlusOne
+        System.out.println("PlusOne");
+        int[] digits = {1,2,9};
+//        int[] digits = {9,8,7,6,5,4,3,2,1,0};
+        System.out.println(Arrays.toString(PlusOne.plusOne1(digits)));
+        System.out.println(Arrays.toString(PlusOne.plusOne2(digits)));
+
+        //String -> FindTheDifference
+        System.out.println("FindTheDifference");
+        String a1 = "";
+        String a2 = "a";
+        System.out.println(FindTheDifference.findTheDifference(a1, a2));
+
+        //String -> MergeStringsAlternately
+        System.out.println("MergeStringsAlternately");
+        String word1 = "abcd";
+        String word2 = "pqklyre";
+        System.out.println(MergeStringsAlternately.mergeAlternately1(word1, word2));
+        System.out.println(MergeStringsAlternately.mergeAlternately2(word1, word2));
+
+        //String -> ValidAnagram
+        System.out.println("ValidAnagram");
+        String w1 = "rat";
+        String w2 = "car";
+        System.out.println(ValidAnagram.isAnagram(w1, w2));
+
+        //Array -> MoveZeroes
+        System.out.println("MoveZeroes");
+        int[] intsTab = {0, 1, 0, 3, 12};
+//        int[] intsTab = {0};
+        MoveZeroes.moveZeroes1(intsTab);
+        int[] intsTab2 = {0, 1, 0, 3, 12};
+        MoveZeroes.moveZeroes2(intsTab2);
+
+        //Array ->SignProductArray
+        System.out.println("SignProductArray");
+        int[] nums5 = {41,65,14,80,20,10,55,58,24,56,28,86,96,10,3,84,4,41,13,32,42,43,83,78,82,70,15,-41};
+        System.out.println(SignProductArray.arraySign(nums5));
+
+        //String -> ToLowerCase
+        System.out.println("ToLowerCase");
+        String q = "LOVELY";
+        System.out.println(ToLowerCase.toLowerCase(q));
+
+        //Array -> ArithmeticPrgression
+        System.out.println("ArithmeticProgression");
+        int[] intsTab3 = {3, 5, 1};
+        System.out.println(ArithmeticProgression.canMakeArithmeticProgression1(intsTab3));
+        System.out.println(ArithmeticProgression.canMakeArithmeticProgression2(intsTab3));
+
+        //Matrix -> RichestCustomerWealth
+        System.out.println("RichestCustomerWealth");
+        int[][] accounts = {{1,2,3},{3,2,2}};
+        System.out.println(RichestCustomerWealth.maximumWealth(accounts));
+
+        //Array -> GetMaximumInGeneratedArray
+        System.out.println("GetMaximumInGeneratedArray");
+        int w = 7;
+        System.out.println(GetMaximumInGeneratedArray.getMaximumGenerated1(w));
+        System.out.println(GetMaximumInGeneratedArray.getMaximumGenerated2(w));
+
+        //Matrix -> MatrixDagonalSum
+        System.out.println("MatrixDiagonalSum");
+//        int[][] mat = {{1,2,3}, {4,5,6}, {7,8,9}};
+        int[][] mat = {{1,1,1,1}, {1,1,1,1}, {1,1,1,1}, {1,1,1,1}};
+        System.out.println(MatrixDiagonalSum.diagonalSum(mat));
+
+        //Math -> CountOddNumber
+        System.out.println("CountOddNumber");
+        int low = 3;
+        int high = 7;
+        System.out.println(CountOddNumbers.countOdds(low, high));
+
+        //String -> DefangingIPAddress
+        System.out.println("DefangingIPAddress");
+        String address = "1.1.1.1";
+        System.out.println(DefangingIPAddress.defangIPaddr(address));
+
+        //String -> JewelsAndStones
+        System.out.println("JewelsAndStones");
+        String jewels = "aA";
+        String stones = "aAAbbbb";
+        System.out.println(JewelsAndStones.numJewelsInStones1(jewels, stones));
+        System.out.println(JewelsAndStones.numJewelsInStones2(jewels, stones));
+
+        //String -> FindWordsContainingCharacter
+        System.out.println("FindWordsContainingCharacter");
+        String[] words =  {"abc","bcd","aaaa","cbc"};
+        char v = 'a';
+        System.out.println(FindWordsContainingCharacter.findWordsContaining1(words, v));
+        System.out.println(FindWordsContainingCharacter.findWordsContaining2(words, v));
+
+        //String -> FizzBuzz
+        System.out.println("FizzBuzz");
+        int fb = 15;
+        System.out.println(FizzBuzz.fizzBuzz1(fb));
+        System.out.println(FizzBuzz.fizzBuzz2(fb));
+        System.out.println(FizzBuzz.fizzBuzz3(fb));
+
+        //String -> SortThePeople
+        System.out.println("SortThePeople");
+        String[] names = {"Alice","Bob","Bob"};
+        int[] heights = {155,185,150};
+        System.out.println(Arrays.toString(SortThePeople.sortPeople1(names, heights)));
+
+        //String -> MaximumNumberOfWords
+        System.out.println("MaximumNumberOfWords");
+        String[] sentences = {"please wait", "continue to fight", "continue to win"};
+        System.out.println(MaximumNumberOfWords.mostWordsFound(sentences));
+
+        //String -> NumberOfGoodPairs
+        System.out.println("NumberOfGoodPairs");
+        int[] numsArray = {1,1,1,1};
+        System.out.println(NumberOfGoodPairs.numIdenticalPairs(numsArray));
+
+        //String -> CheckIfTwoStringArraysAreEquivalent
+        System.out.println("CheckIfTwoStringArraysAreEquivalent");
+        String[] word11 = {"a", "cb"};
+        String[] word22 = {"ab", "c"};
+        System.out.println(CheckIfTwoStringArraysAreEquivalent.arrayStringsAreEqual1(word11, word22));
+        System.out.println(CheckIfTwoStringArraysAreEquivalent.arrayStringsAreEqual2(word11, word22));
+
+        //String -> CheckIfSentenceIsPangram
+        System.out.println("CheckIfSentenceIsPangram");
+        String sentence = "thtequickbrownfoxjumpsoverthelazydog";
+        System.out.println(CheckIfSentenceIsPangram.checkIfPangram(sentence));
+
+        //Array -> MonotonicArray
+        System.out.println("MonotonicArray");
+        int[] nums11 = {1,2,2,3};
+        System.out.println(MonotonicArray.isMonotonic(nums11));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    }
+}
