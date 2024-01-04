@@ -28,10 +28,13 @@ import math.palindromenumber.PalindromeNumber;
 import math.plusone.PlusOne;
 import matrix.matrixdiagonalsum.MatrixDiagonalSum;
 import matrix.richestcustomerwealth.RichestCustomerWealth;
+import twopointers.countpairssumlessthantarget.CountPairsWhoseSumIsLessThanTarget;
 import twopointers.issubsequence.IsSubsequence;
 import twopointers.validpalindrome.ValidPalindrome;
 
+import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.List;
 
 public class Main {
 
@@ -237,6 +240,19 @@ public class Main {
         System.out.println("HowManyNumbersAreSmaller");
         int[] numbers = {7,7,7,7};
         System.out.println(Arrays.toString(HowManyNumbersAreSmaller.smallerNumbersThanCurrent(numbers)));
+
+        //Two Pointers -> CountPairsWhoseSumIsLessThanTarget
+        System.out.println("CountPairsWhoseSumIsLessThanTarget");
+        List<Integer> list = new ArrayList<>();
+        list.add(-6);
+        list.add(2);
+        list.add(5);
+        list.add(-2);
+        list.add(-7);
+        list.add(-1);
+        list.add(3);
+        int target = -2;
+        System.out.println(CountPairsWhoseSumIsLessThanTarget.countPairs(list, target));
 
 
 
