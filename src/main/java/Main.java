@@ -28,6 +28,7 @@ import math.palindromenumber.PalindromeNumber;
 import math.plusone.PlusOne;
 import matrix.matrixdiagonalsum.MatrixDiagonalSum;
 import matrix.richestcustomerwealth.RichestCustomerWealth;
+import twopointers.countnumberoffairpairs.CountNumberOfFairPairs;
 import twopointers.countpairssumlessthantarget.CountPairsWhoseSumIsLessThanTarget;
 import twopointers.issubsequence.IsSubsequence;
 import twopointers.validpalindrome.ValidPalindrome;
@@ -253,6 +254,14 @@ public class Main {
         list.add(3);
         int target = -2;
         System.out.println(CountPairsWhoseSumIsLessThanTarget.countPairs(list, target));
+
+        //Two Pointers -> CountNumberOfFairPairs
+        System.out.println("CountNumberOfFairPairs");
+        int[] numsTP = {0,1,7,4,4,5};
+        int lower = 3;
+        int upper = 6;
+        System.out.println(CountNumberOfFairPairs.countFairPairs1(numsTP, lower, upper));
+        System.out.println(CountNumberOfFairPairs.countFairPairs2(numsTP, lower, upper));
 
 
 
