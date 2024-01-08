@@ -18,6 +18,7 @@ import arraystring.mergestringsalternately.MergeStringsAlternately;
 import arraystring.numberofgoodpairs.NumberOfGoodPairs;
 import arraystring.removeduplicates.RemoveDuplicates;
 import arraystring.removeelement.RemoveElement;
+import arraystring.reversewords.ReverseWordsInString;
 import arraystring.signproductarray.SignProductArray;
 import arraystring.sortpeople.SortThePeople;
 import arraystring.tolowercase.ToLowerCase;
@@ -262,6 +263,12 @@ public class Main {
         int upper = 6;
         System.out.println(CountNumberOfFairPairs.countFairPairs1(numsTP, lower, upper));
         System.out.println(CountNumberOfFairPairs.countFairPairs2(numsTP, lower, upper));
+
+        //String -> ReverseWordsInString
+        System.out.println("ReverseWordsInString");
+        String sentence1 = "Let's take LeetCode contest";
+        System.out.println(ReverseWordsInString.reverseWords1(sentence1));
+
 
 
 
