@@ -1,6 +1,7 @@
 import arraystring.checkifsentenceispangram.CheckIfSentenceIsPangram;
 import arraystring.checktwostingsarraysequivalent.CheckIfTwoStringArraysAreEquivalent;
 import arraystring.defangingipaddress.DefangingIPAddress;
+import arraystring.faultykeyboard.FaultyKeyboard;
 import arraystring.findwordscontainingcharacter.FindWordsContainingCharacter;
 import arraystring.fizzbuzz.FizzBuzz;
 import arraystring.howmanynumbersaresmaller.HowManyNumbersAreSmaller;
@@ -268,6 +269,11 @@ public class Main {
         System.out.println("ReverseWordsInString");
         String sentence1 = "Let's take LeetCode contest";
         System.out.println(ReverseWordsInString.reverseWords1(sentence1));
+
+        //String -> FaultyKeyboard
+        System.out.println("FaultyKeyboard");
+        String s2 = "string";
+        System.out.println(FaultyKeyboard.finalString(s2));
 
 
 
