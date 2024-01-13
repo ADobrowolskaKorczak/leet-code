@@ -7,6 +7,7 @@ import arraystring.fizzbuzz.FizzBuzz;
 import arraystring.howmanynumbersaresmaller.HowManyNumbersAreSmaller;
 import arraystring.jewelsandstones.JewelsAndStones;
 import arraystring.maxnumberofwords.MaximumNumberOfWords;
+import arraystring.maxnumberstringpairs.MaxNumberOfStringPairs;
 import arraystring.movezeroes.MoveZeroes;
 import arraystring.arthmeticprogression.ArithmeticProgression;
 import arraystring.finddifferences.FindTheDifference;
@@ -274,6 +275,11 @@ public class Main {
         System.out.println("FaultyKeyboard");
         String s2 = "string";
         System.out.println(FaultyKeyboard.finalString(s2));
+
+        //String -> MaxNumberOfStringPairs
+        System.out.println("MaxNumberOfStringPairs");
+        String[] words1 = {"cd","ac","dc","ca","zz"};
+        System.out.println(MaxNumberOfStringPairs.maximumNumberOfStringPairs(words1));
 
 
 
