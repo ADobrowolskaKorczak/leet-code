@@ -34,6 +34,7 @@ import matrix.richestcustomerwealth.RichestCustomerWealth;
 import twopointers.countnumberoffairpairs.CountNumberOfFairPairs;
 import twopointers.countpairssumlessthantarget.CountPairsWhoseSumIsLessThanTarget;
 import twopointers.issubsequence.IsSubsequence;
+import twopointers.numberofarithmetictriples.NumberOfArithmeticTriples;
 import twopointers.validpalindrome.ValidPalindrome;
 
 import java.util.ArrayList;
@@ -280,6 +281,12 @@ public class Main {
         System.out.println("MaxNumberOfStringPairs");
         String[] words1 = {"cd","ac","dc","ca","zz"};
         System.out.println(MaxNumberOfStringPairs.maximumNumberOfStringPairs(words1));
+
+        //TwoPointers -> NumberOfArithmeticTriples
+        System.out.println("NumberOfArithmeticTriples");
+        int[] nums6 = {4,5,6,7,8,9};
+        int diff = 2;
+        System.out.println(NumberOfArithmeticTriples.arithmeticTriplets(nums6, diff));
 
 
 
