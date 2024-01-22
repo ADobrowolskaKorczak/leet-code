@@ -1,22 +1,22 @@
+import arraystring.arthmeticprogression.ArithmeticProgression;
 import arraystring.checkifsentenceispangram.CheckIfSentenceIsPangram;
 import arraystring.checktwostingsarraysequivalent.CheckIfTwoStringArraysAreEquivalent;
 import arraystring.defangingipaddress.DefangingIPAddress;
 import arraystring.faultykeyboard.FaultyKeyboard;
+import arraystring.finddifferences.FindTheDifference;
+import arraystring.findindex.FindIndexOfFirstString;
 import arraystring.findwordscontainingcharacter.FindWordsContainingCharacter;
 import arraystring.fizzbuzz.FizzBuzz;
 import arraystring.howmanynumbersaresmaller.HowManyNumbersAreSmaller;
 import arraystring.jewelsandstones.JewelsAndStones;
-import arraystring.maxnumberofwords.MaximumNumberOfWords;
-import arraystring.maxnumberstringpairs.MaxNumberOfStringPairs;
-import arraystring.movezeroes.MoveZeroes;
-import arraystring.arthmeticprogression.ArithmeticProgression;
-import arraystring.finddifferences.FindTheDifference;
-import arraystring.findindex.FindIndexOfFirstString;
 import arraystring.lengthoflasword.LengthLastWord;
 import arraystring.majorityelement.MajorityElement;
 import arraystring.maximumingeneratedarray.GetMaximumInGeneratedArray;
+import arraystring.maxnumberofwords.MaximumNumberOfWords;
+import arraystring.maxnumberstringpairs.MaxNumberOfStringPairs;
 import arraystring.mergesortedarray.MergeSortedArray;
 import arraystring.mergestringsalternately.MergeStringsAlternately;
+import arraystring.movezeroes.MoveZeroes;
 import arraystring.numberofgoodpairs.NumberOfGoodPairs;
 import arraystring.removeduplicates.RemoveDuplicates;
 import arraystring.removeelement.RemoveElement;
@@ -26,6 +26,7 @@ import arraystring.sortpeople.SortThePeople;
 import arraystring.tolowercase.ToLowerCase;
 import arraystring.validanagram.ValidAnagram;
 import bitmanipulation.singlenumber.SingleNumber;
+import hashtable.findcommonelementsbetweentwoarrays.FindCommonElements;
 import math.countoddnumbers.CountOddNumbers;
 import math.palindromenumber.PalindromeNumber;
 import math.plusone.PlusOne;
@@ -287,6 +288,13 @@ public class Main {
         int[] nums6 = {4,5,6,7,8,9};
         int diff = 2;
         System.out.println(NumberOfArithmeticTriples.arithmeticTriplets(nums6, diff));
+
+        //HashTable -> FindCommonElements
+        System.out.println("FindCommonElements");
+        int[] nums111 = {4,3,2,3,1};
+        int[] nums222 = {2,2,5,2,3,6};
+        System.out.println(Arrays.toString(FindCommonElements.findIntersectionValues(nums111, nums222)));
+
 
 
 
