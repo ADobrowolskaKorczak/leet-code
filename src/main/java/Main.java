@@ -24,6 +24,7 @@ import arraystring.reversewords.ReverseWordsInString;
 import arraystring.signproductarray.SignProductArray;
 import arraystring.sortpeople.SortThePeople;
 import arraystring.tolowercase.ToLowerCase;
+import arraystring.truncatesentence.TruncateSentence;
 import arraystring.validanagram.ValidAnagram;
 import bitmanipulation.singlenumber.SingleNumber;
 import hashtable.findcommonelementsbetweentwoarrays.FindCommonElements;
@@ -294,6 +295,12 @@ public class Main {
         int[] nums111 = {4,3,2,3,1};
         int[] nums222 = {2,2,5,2,3,6};
         System.out.println(Arrays.toString(FindCommonElements.findIntersectionValues(nums111, nums222)));
+
+        //String -> TruncateSentence
+        System.out.println("TruncateSentence");
+        String s1 = "Hello how are you Contestant";
+        int k = 4;
+        System.out.println(TruncateSentence.truncateSentence1(s1, k));
 
 
 
