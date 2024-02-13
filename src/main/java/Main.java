@@ -22,6 +22,7 @@ import arraystring.removeduplicates.RemoveDuplicates;
 import arraystring.removeelement.RemoveElement;
 import arraystring.reversewords.ReverseWordsInString;
 import arraystring.signproductarray.SignProductArray;
+import arraystring.sortingthesentence.SortingTheSentence;
 import arraystring.sortpeople.SortThePeople;
 import arraystring.tolowercase.ToLowerCase;
 import arraystring.truncatesentence.TruncateSentence;
@@ -301,6 +302,11 @@ public class Main {
         String s1 = "Hello how are you Contestant";
         int k = 4;
         System.out.println(TruncateSentence.truncateSentence1(s1, k));
+
+        //String -> SortingTheSentence
+        System.out.println("SortingTheSentence");
+        String sentence11 = "is2 sentence4 This1 a3";
+        System.out.println(SortingTheSentence.sortSentence(sentence11));
 
 
 
