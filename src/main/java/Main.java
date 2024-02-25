@@ -1,4 +1,5 @@
 import arraystring.arthmeticprogression.ArithmeticProgression;
+import arraystring.chackifwordsoccurprefix.CheckIfWordsOccurPrefix;
 import arraystring.checkifsentenceispangram.CheckIfSentenceIsPangram;
 import arraystring.checktwostingsarraysequivalent.CheckIfTwoStringArraysAreEquivalent;
 import arraystring.countingwordsprefix.CountingWordsPrefix;
@@ -314,6 +315,12 @@ public class Main {
         String[] words2 = {"pay","attention","practice","attend"};
         String pref = "at";
         System.out.println(CountingWordsPrefix.prefixCount(words2, pref));
+
+        //String -> CheckIfWordsOccurPrefix
+        System.out.println("CheckIfWordsOccurPrefix");
+        String sentence22 = "i love eating burger";
+        String searchWord = "burg";
+        System.out.println(CheckIfWordsOccurPrefix.isPrefixOfWord(sentence22, searchWord));
 
 
 
