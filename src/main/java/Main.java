@@ -1,6 +1,7 @@
 import arraystring.arthmeticprogression.ArithmeticProgression;
 import arraystring.checkifsentenceispangram.CheckIfSentenceIsPangram;
 import arraystring.checktwostingsarraysequivalent.CheckIfTwoStringArraysAreEquivalent;
+import arraystring.countingwordsprefix.CountingWordsPrefix;
 import arraystring.defangingipaddress.DefangingIPAddress;
 import arraystring.faultykeyboard.FaultyKeyboard;
 import arraystring.finddifferences.FindTheDifference;
@@ -307,6 +308,12 @@ public class Main {
         System.out.println("SortingTheSentence");
         String sentence11 = "is2 sentence4 This1 a3";
         System.out.println(SortingTheSentence.sortSentence(sentence11));
+
+        //String -> CountinfWordsPrefix
+        System.out.println("CountingWordsPrefix");
+        String[] words2 = {"pay","attention","practice","attend"};
+        String pref = "at";
+        System.out.println(CountingWordsPrefix.prefixCount(words2, pref));
 
 
 
