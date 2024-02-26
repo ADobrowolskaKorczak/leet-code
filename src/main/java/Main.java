@@ -22,6 +22,7 @@ import arraystring.movezeroes.MoveZeroes;
 import arraystring.numberofgoodpairs.NumberOfGoodPairs;
 import arraystring.removeduplicates.RemoveDuplicates;
 import arraystring.removeelement.RemoveElement;
+import arraystring.reversestring.ReverseString;
 import arraystring.reversewords.ReverseWordsInString;
 import arraystring.signproductarray.SignProductArray;
 import arraystring.sortingthesentence.SortingTheSentence;
@@ -321,6 +322,11 @@ public class Main {
         String sentence22 = "i love eating burger";
         String searchWord = "burg";
         System.out.println(CheckIfWordsOccurPrefix.isPrefixOfWord(sentence22, searchWord));
+
+        //String -> ReverseString
+        System.out.println("ReverseString");
+        char[] chars = {'h','e','l','l','o'};
+        ReverseString.reverseString(chars);
 
 
 
