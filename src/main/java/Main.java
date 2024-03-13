@@ -41,6 +41,7 @@ import twopointers.countnumberoffairpairs.CountNumberOfFairPairs;
 import twopointers.countpairssumlessthantarget.CountPairsWhoseSumIsLessThanTarget;
 import twopointers.issubsequence.IsSubsequence;
 import twopointers.numberofarithmetictriples.NumberOfArithmeticTriples;
+import twopointers.palindromicstring.FindFirstPalindromicString;
 import twopointers.validpalindrome.ValidPalindrome;
 
 import java.util.ArrayList;
@@ -327,6 +328,12 @@ public class Main {
         System.out.println("ReverseString");
         char[] chars = {'h','e','l','l','o'};
         ReverseString.reverseString(chars);
+        System.out.println();
+
+        //TwoPointers -> FindFirstPalindromicString
+        System.out.println("FindFirstPalindromicString");
+        String[] words11 = {"abc","car","ada","racecar","cool"};
+        System.out.println(FindFirstPalindromicString.firstPalindrome(words11));
 
 
 
