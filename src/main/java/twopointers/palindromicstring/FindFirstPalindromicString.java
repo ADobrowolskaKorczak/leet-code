@@ -15,7 +15,6 @@ import java.util.List;
 public class FindFirstPalindromicString {
 
     public static String firstPalindrome(String[] words) {
-        List<String> reversedStrings = new ArrayList<>();
         String result = "";
         for (int i = 0; i < words.length; i++) {
             StringBuilder sb = new StringBuilder();
