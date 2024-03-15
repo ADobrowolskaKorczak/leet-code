@@ -1,4 +1,5 @@
 import arraystring.arthmeticprogression.ArithmeticProgression;
+import arraystring.besttimestock.BestTimeStock;
 import arraystring.chackifwordsoccurprefix.CheckIfWordsOccurPrefix;
 import arraystring.checkifsentenceispangram.CheckIfSentenceIsPangram;
 import arraystring.checktwostingsarraysequivalent.CheckIfTwoStringArraysAreEquivalent;
@@ -334,6 +335,11 @@ public class Main {
         System.out.println("FindFirstPalindromicString");
         String[] words11 = {"abc","car","ada","racecar","cool"};
         System.out.println(FindFirstPalindromicString.firstPalindrome(words11));
+
+        //Array -> BestTimeStock
+        System.out.println("BestTimeStock");
+        int[] prices = {2,4,1};
+        System.out.println(BestTimeStock.maxProfit(prices));
 
 
 
