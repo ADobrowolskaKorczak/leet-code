@@ -21,6 +21,7 @@ import arraystring.mergesortedarray.MergeSortedArray;
 import arraystring.mergestringsalternately.MergeStringsAlternately;
 import arraystring.movezeroes.MoveZeroes;
 import arraystring.numberofgoodpairs.NumberOfGoodPairs;
+import arraystring.pascalstriangle.PascalsTriangle;
 import arraystring.pascalstriangleII.PascalsTriangleTwo;
 import arraystring.removeduplicates.RemoveDuplicates;
 import arraystring.removeelement.RemoveElement;
@@ -346,6 +347,11 @@ public class Main {
         System.out.println("PascalsTriangleTwo");
         int rowIndex = 2;
         System.out.println(PascalsTriangleTwo.getRow(rowIndex));
+
+        //Array -> PascalsTriangle
+        System.out.println("PascalsTriangle");
+        int rowIdx = 5;
+        System.out.println(PascalsTriangle.generate(rowIdx));
 
 
 
