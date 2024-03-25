@@ -1,0 +1,28 @@
+package arraystring.pascalstriangleII;
+
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class PascalsTriangleTwo {
+
+    public static List<Integer> getRow(int rowIndex) {
+        List<List<Integer>> pascalTriangle = new ArrayList<>();
+        for (int i = 0; i <= rowIndex; i++) {
+            List<Integer> row = new ArrayList<>();
+            for (int j = 0; j <= i; j++) {
+                if (j == 0 || j == i) {
+                    row.add(1);
+                } else {
+                    List<Integer> prevRow = pascalTriangle.get(i - 1);
+                    int value = prevRow.get(j - 1) + prevRow.get(j);
+                    row.add(value);
+                }
+            }
+            pascalTriangle.add(row);
+        }
+
+        return pascalTriangle.get(rowIndex);
+    }
+
+}

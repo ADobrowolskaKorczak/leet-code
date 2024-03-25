@@ -21,6 +21,7 @@ import arraystring.mergesortedarray.MergeSortedArray;
 import arraystring.mergestringsalternately.MergeStringsAlternately;
 import arraystring.movezeroes.MoveZeroes;
 import arraystring.numberofgoodpairs.NumberOfGoodPairs;
+import arraystring.pascalstriangleII.PascalsTriangleTwo;
 import arraystring.removeduplicates.RemoveDuplicates;
 import arraystring.removeelement.RemoveElement;
 import arraystring.reversestring.ReverseString;
@@ -340,6 +341,11 @@ public class Main {
         System.out.println("BestTimeStock");
         int[] prices = {2,4,1};
         System.out.println(BestTimeStock.maxProfit(prices));
+
+        //Array -> PascalsTriangleTwo
+        System.out.println("PascalsTriangleTwo");
+        int rowIndex = 2;
+        System.out.println(PascalsTriangleTwo.getRow(rowIndex));
 
 
 
