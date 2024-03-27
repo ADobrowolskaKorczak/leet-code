@@ -19,6 +19,7 @@ import arraystring.maxnumberofwords.MaximumNumberOfWords;
 import arraystring.maxnumberstringpairs.MaxNumberOfStringPairs;
 import arraystring.mergesortedarray.MergeSortedArray;
 import arraystring.mergestringsalternately.MergeStringsAlternately;
+import arraystring.minimumnumberofdecibinary.MinNumberOfDeciBinary;
 import arraystring.movezeroes.MoveZeroes;
 import arraystring.numberofgoodpairs.NumberOfGoodPairs;
 import arraystring.pascalstriangle.PascalsTriangle;
@@ -352,6 +353,13 @@ public class Main {
         System.out.println("PascalsTriangle");
         int rowIdx = 5;
         System.out.println(PascalsTriangle.generate(rowIdx));
+
+        //String -> MinNumberOfDeciBinary
+        System.out.println("MinNumberOfDeciBinary");
+        String num = "27346209830709182346";
+        System.out.println(MinNumberOfDeciBinary.minPartitions(num));
+
+
 
 
 
