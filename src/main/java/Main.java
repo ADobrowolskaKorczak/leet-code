@@ -357,8 +357,8 @@ public class Main {
         //String -> MinNumberOfDeciBinary
         System.out.println("MinNumberOfDeciBinary");
         String num = "27346209830709182346";
-        System.out.println(MinNumberOfDeciBinary.minPartitions(num));
-
+        System.out.println(MinNumberOfDeciBinary.minPartitions1(num));
+        System.out.println(MinNumberOfDeciBinary.minPartitions2(num));
 
 
 

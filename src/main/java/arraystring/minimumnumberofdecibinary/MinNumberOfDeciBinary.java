@@ -12,7 +12,7 @@ import java.util.List;
 
 public class MinNumberOfDeciBinary {
 
-    public static int minPartitions(String n) {
+    public static int minPartitions1(String n) {
         char[] chars = n.toCharArray();
         List<Integer> integerList = new ArrayList<>();
         for (char x : chars) {
@@ -21,6 +21,20 @@ public class MinNumberOfDeciBinary {
         return integerList.stream()
                 .max(Comparator.comparing(Integer::intValue)).orElseThrow();
     }
+
+    public static int minPartitions2(String n) {
+        char[] chars = n.toCharArray();
+        int max = 0;
+        for (int i = 0; i < chars.length; i++) {
+            int num = Character.getNumericValue(chars[i]);
+            if (num > max) {
+                max = num;
+            }
+        }
+        return max;
+    }
+
+
 
 
 
