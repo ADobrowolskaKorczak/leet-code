@@ -20,6 +20,7 @@ import arraystring.maxnumberstringpairs.MaxNumberOfStringPairs;
 import arraystring.mergesortedarray.MergeSortedArray;
 import arraystring.mergestringsalternately.MergeStringsAlternately;
 import arraystring.minimumnumberofdecibinary.MinNumberOfDeciBinary;
+import arraystring.minoperationmoveballs.MinOperationMoveBalls;
 import arraystring.movezeroes.MoveZeroes;
 import arraystring.numberofgoodpairs.NumberOfGoodPairs;
 import arraystring.pascalstriangle.PascalsTriangle;
@@ -359,6 +360,11 @@ public class Main {
         String num = "27346209830709182346";
         System.out.println(MinNumberOfDeciBinary.minPartitions1(num));
         System.out.println(MinNumberOfDeciBinary.minPartitions2(num));
+
+        //String -> MinOperationMoveBalls
+        System.out.println("MinOperationMoveBalls");
+        String boxes = "001011";
+        System.out.println(Arrays.toString(MinOperationMoveBalls.minOperations(boxes)));
 
 
 
