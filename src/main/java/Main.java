@@ -32,6 +32,7 @@ import arraystring.reversewords.ReverseWordsInString;
 import arraystring.signproductarray.SignProductArray;
 import arraystring.sortingthesentence.SortingTheSentence;
 import arraystring.sortpeople.SortThePeople;
+import arraystring.spreadstonesovergrid.NumberOfLaserBeams;
 import arraystring.tolowercase.ToLowerCase;
 import arraystring.truncatesentence.TruncateSentence;
 import arraystring.validanagram.ValidAnagram;
@@ -365,6 +366,12 @@ public class Main {
         System.out.println("MinOperationMoveBalls");
         String boxes = "001011";
         System.out.println(Arrays.toString(MinOperationMoveBalls.minOperations(boxes)));
+
+        //Array -> NumberOfLaserBeams
+        System.out.println("NumberOfLaserBeams");
+        String[] bank = {"011001","000000","010100","001000"};
+        System.out.println(NumberOfLaserBeams.numberOfBeams(bank));
+
 
 
 
