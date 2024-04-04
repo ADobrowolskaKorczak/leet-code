@@ -43,6 +43,7 @@ import math.palindromenumber.PalindromeNumber;
 import math.plusone.PlusOne;
 import matrix.matrixdiagonalsum.MatrixDiagonalSum;
 import matrix.richestcustomerwealth.RichestCustomerWealth;
+import matrix.minstepstomakeanagram.MinStepsToMakeAnagram;
 import twopointers.countnumberoffairpairs.CountNumberOfFairPairs;
 import twopointers.countpairssumlessthantarget.CountPairsWhoseSumIsLessThanTarget;
 import twopointers.issubsequence.IsSubsequence;
@@ -372,6 +373,11 @@ public class Main {
         String[] bank = {"011001","000000","010100","001000"};
         System.out.println(NumberOfLaserBeams.numberOfBeams(bank));
 
+        //String -> MinStepsToMakeAnagram
+        System.out.println("MinStepsToMakeAnagram");
+        String s11 = "xleetcode";
+        String t11 = "epractice";
+        System.out.println(MinStepsToMakeAnagram.minSteps(s11, t11));
 
 
 
