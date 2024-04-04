@@ -378,6 +378,7 @@ public class Main {
         String s11 = "xleetcode";
         String t11 = "epractice";
         System.out.println(MinStepsToMakeAnagram.minSteps(s11, t11));
+        System.out.println(MinStepsToMakeAnagram.minSteps2(s11, t11));
 
 
 
