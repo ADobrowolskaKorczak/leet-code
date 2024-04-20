@@ -25,6 +25,17 @@ public class MinNumberGame {
         return arr;
     }
 
+    public static int[] numberGame2(int[] nums) {
+        Arrays.sort(nums);
+        for (int i = 0; i < nums.length; i += 2) {
+            int temp = nums[i];
+            nums[i] = nums[i + 1];
+            nums[i + 1] = temp;
+        }
+        return nums;
+    }
+
+
 
 
 }

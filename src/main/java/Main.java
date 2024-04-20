@@ -385,6 +385,7 @@ public class Main {
         System.out.println("MinNumberGame");
         int[] nums12 = {5,4,2,3};
         System.out.println(Arrays.toString(MinNumberGame.numberGame(nums12)));
+        System.out.println(Arrays.toString(MinNumberGame.numberGame2(nums12)));
 
 
 
