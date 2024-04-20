@@ -19,6 +19,7 @@ import arraystring.maxnumberofwords.MaximumNumberOfWords;
 import arraystring.maxnumberstringpairs.MaxNumberOfStringPairs;
 import arraystring.mergesortedarray.MergeSortedArray;
 import arraystring.mergestringsalternately.MergeStringsAlternately;
+import arraystring.minimumnumbergame.MinNumberGame;
 import arraystring.minimumnumberofdecibinary.MinNumberOfDeciBinary;
 import arraystring.minoperationmoveballs.MinOperationMoveBalls;
 import arraystring.movezeroes.MoveZeroes;
@@ -379,6 +380,11 @@ public class Main {
         String t11 = "epractice";
         System.out.println(MinStepsToMakeAnagram.minSteps(s11, t11));
         System.out.println(MinStepsToMakeAnagram.minSteps2(s11, t11));
+
+        //Array -> MinNumberGame
+        System.out.println("MinNumberGame");
+        int[] nums12 = {5,4,2,3};
+        System.out.println(Arrays.toString(MinNumberGame.numberGame(nums12)));
 
 
 
