@@ -33,6 +33,7 @@ import arraystring.reversewords.ReverseWordsInString;
 import arraystring.signproductarray.SignProductArray;
 import arraystring.sortingthesentence.SortingTheSentence;
 import arraystring.sortpeople.SortThePeople;
+import arraystring.sortstudents.SortStudents;
 import arraystring.spreadstonesovergrid.NumberOfLaserBeams;
 import arraystring.tolowercase.ToLowerCase;
 import arraystring.truncatesentence.TruncateSentence;
@@ -386,6 +387,13 @@ public class Main {
         int[] nums12 = {5,4,2,3};
         System.out.println(Arrays.toString(MinNumberGame.numberGame(nums12)));
         System.out.println(Arrays.toString(MinNumberGame.numberGame2(nums12)));
+
+        //Array -> SortStudents
+        System.out.println("SortStudents");
+        int[][] score = {{10,6,9,1},{7,5,11,2},{4,8,3,15}};
+        int k1 = 2;
+        System.out.println(Arrays.deepToString(SortStudents.sortTheStudents(score, k1)));
+
 
 
 
