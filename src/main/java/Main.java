@@ -35,6 +35,7 @@ import arraystring.sortingthesentence.SortingTheSentence;
 import arraystring.sortpeople.SortThePeople;
 import arraystring.sortstudents.SortStudents;
 import arraystring.spreadstonesovergrid.NumberOfLaserBeams;
+import arraystring.stringscore.StringScore;
 import arraystring.tolowercase.ToLowerCase;
 import arraystring.truncatesentence.TruncateSentence;
 import arraystring.validanagram.ValidAnagram;
@@ -394,6 +395,10 @@ public class Main {
         int k1 = 2;
         System.out.println(Arrays.deepToString(SortStudents.sortTheStudents(score, k1)));
 
+        //String -> StringScore
+        System.out.println("StringScore");
+        String str = "hello";
+        System.out.println(StringScore.scoreOfString(str));
 
 
 
