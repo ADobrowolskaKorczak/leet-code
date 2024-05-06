@@ -399,6 +399,7 @@ public class Main {
         System.out.println("StringScore");
         String str = "hello";
         System.out.println(StringScore.scoreOfString(str));
+        System.out.println(StringScore.scoreOfString2(str));
 
 
 
