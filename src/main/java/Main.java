@@ -3,6 +3,7 @@ import arraystring.besttimestock.BestTimeStock;
 import arraystring.chackifwordsoccurprefix.CheckIfWordsOccurPrefix;
 import arraystring.checkifsentenceispangram.CheckIfSentenceIsPangram;
 import arraystring.checktwostingsarraysequivalent.CheckIfTwoStringArraysAreEquivalent;
+import arraystring.concatenationofarray.ArrayConcatenation;
 import arraystring.countingwordsprefix.CountingWordsPrefix;
 import arraystring.defangingipaddress.DefangingIPAddress;
 import arraystring.faultykeyboard.FaultyKeyboard;
@@ -400,6 +401,11 @@ public class Main {
         String str = "hello";
         System.out.println(StringScore.scoreOfString(str));
         System.out.println(StringScore.scoreOfString2(str));
+
+        //Array -> ArrayConcatenation
+        System.out.println("ArrayConcatenation");
+        int[] nux = {1,2,1};
+        System.out.println(Arrays.toString(ArrayConcatenation.getConcatenation(nux)));
 
 
 
