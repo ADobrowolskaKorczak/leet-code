@@ -8,6 +8,7 @@ import arraystring.concatenationofarray.ArrayConcatenation;
 import arraystring.countingwordsprefix.CountingWordsPrefix;
 import arraystring.defangingipaddress.DefangingIPAddress;
 import arraystring.faultykeyboard.FaultyKeyboard;
+import arraystring.finalvalue.FinalValue;
 import arraystring.finddifferences.FindTheDifference;
 import arraystring.findindex.FindIndexOfFirstString;
 import arraystring.findwordscontainingcharacter.FindWordsContainingCharacter;
@@ -413,6 +414,10 @@ public class Main {
         int[] nuxx = {0,2,1,5,3,4};
         System.out.println(Arrays.toString(ArrayFromPermutation.buildArray(nuxx)));
 
+        //Array -> FinalValue
+        System.out.println("FinalValue");
+        String[] operations = {"--X","X++","X++"};
+        System.out.println(FinalValue.finalValueAfterOperations(operations));
 
 
 
