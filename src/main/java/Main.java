@@ -33,6 +33,7 @@ import arraystring.removeduplicates.RemoveDuplicates;
 import arraystring.removeelement.RemoveElement;
 import arraystring.reversestring.ReverseString;
 import arraystring.reversewords.ReverseWordsInString;
+import arraystring.shufflearray.ShuffleArray;
 import arraystring.signproductarray.SignProductArray;
 import arraystring.sortingthesentence.SortingTheSentence;
 import arraystring.sortpeople.SortThePeople;
@@ -418,6 +419,13 @@ public class Main {
         System.out.println("FinalValue");
         String[] operations = {"--X","X++","X++"};
         System.out.println(FinalValue.finalValueAfterOperations(operations));
+
+        //Array -> ShuffleArray
+        System.out.println("ShuffleArray");
+        int[] numsTable = {2,5,1,3,4,7};
+        int abc = 3;
+        System.out.println(Arrays.toString(ShuffleArray.shuffle(numsTable, abc)));
+        System.out.println(Arrays.toString(ShuffleArray.shuffle2(numsTable, abc)));
 
 
 
