@@ -1,3 +1,4 @@
+import arraystring.arrayfrompermutation.ArrayFromPermutation;
 import arraystring.arthmeticprogression.ArithmeticProgression;
 import arraystring.besttimestock.BestTimeStock;
 import arraystring.chackifwordsoccurprefix.CheckIfWordsOccurPrefix;
@@ -406,6 +407,12 @@ public class Main {
         System.out.println("ArrayConcatenation");
         int[] nux = {1,2,1};
         System.out.println(Arrays.toString(ArrayConcatenation.getConcatenation(nux)));
+
+        //Array -> ArrayFromPermutation
+        System.out.println("ArrayFromPermutation");
+        int[] nuxx = {0,2,1,5,3,4};
+        System.out.println(Arrays.toString(ArrayFromPermutation.buildArray(nuxx)));
+
 
 
 
