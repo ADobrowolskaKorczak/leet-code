@@ -7,6 +7,7 @@ import arraystring.checktwostingsarraysequivalent.CheckIfTwoStringArraysAreEquiv
 import arraystring.concatenationofarray.ArrayConcatenation;
 import arraystring.countingwordsprefix.CountingWordsPrefix;
 import arraystring.defangingipaddress.DefangingIPAddress;
+import arraystring.employeestarget.EmployeesTarget;
 import arraystring.faultykeyboard.FaultyKeyboard;
 import arraystring.finalvalue.FinalValue;
 import arraystring.finddifferences.FindTheDifference;
@@ -426,6 +427,12 @@ public class Main {
         int abc = 3;
         System.out.println(Arrays.toString(ShuffleArray.shuffle(numsTable, abc)));
         System.out.println(Arrays.toString(ShuffleArray.shuffle2(numsTable, abc)));
+
+        //Array -> EmployeesTarget
+        System.out.println("EmployeesTarget");
+        int[] hours = {5,1,4,2,2};
+        int targetEmp = 6;
+        System.out.println(EmployeesTarget.numberOfEmployeesWhoMetTarget(hours, targetEmp));
 
 
 
