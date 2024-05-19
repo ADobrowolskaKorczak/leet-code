@@ -439,6 +439,7 @@ public class Main {
         System.out.println("RunningSum");
         int[] numsRunningSum = {1,2,3,4};
         System.out.println(Arrays.toString(RunningSum.runningSum(numsRunningSum)));
+        System.out.println(Arrays.toString(RunningSum.runningSum2(numsRunningSum)));
 
 
 
