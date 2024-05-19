@@ -14,6 +14,7 @@ Explanation: If you give all extraCandies to:
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.function.Function;
 
 public class Candies {
 
@@ -35,5 +36,37 @@ public class Candies {
         return list;
     }
 
+    public static List<Boolean> kidsWithCandies2(int[] candies, int extraCandies) {
+        List<Boolean> list = new ArrayList<>();
+        List<Integer> candy = new ArrayList<>();
+        for (int i = 0; i < candies.length; i++) {
+            candy.add(candies[i]);
+        }
+        int max = candy.stream().max(Integer::compare).get();
+        for (int i = 0; i < candies.length; i++) {
+            if (candies[i] + extraCandies >= max) {
+                list.add(true);
+            } else {
+                list.add(false);
+            }
+        }
+        return list;
+    }
+
+    public static List<Boolean> kidsWithCandies3(int[] candies, int extraCandies) {
+        List<Boolean> list = new ArrayList<>();
+        int max = 0;
+        for (int i = 0; i < candies.length; i++) {
+            max = Math.max(candies[i], max);
+        }
+        for (int i = 0; i < candies.length; i++) {
+            list.add(candies[i] + extraCandies >= max);
+        }
+        return list;
+    }
 
 }
+
+
+
+

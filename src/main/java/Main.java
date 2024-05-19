@@ -447,6 +447,8 @@ public class Main {
         int[] candies = {2,3,5,1,3};
         int extraCandies = 3;
         System.out.println(Candies.kidsWithCandies(candies, extraCandies));
+        System.out.println(Candies.kidsWithCandies2(candies, extraCandies));
+        System.out.println(Candies.kidsWithCandies3(candies, extraCandies));
 
 
 
