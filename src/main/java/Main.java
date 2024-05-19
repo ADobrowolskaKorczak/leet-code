@@ -34,6 +34,7 @@ import arraystring.removeduplicates.RemoveDuplicates;
 import arraystring.removeelement.RemoveElement;
 import arraystring.reversestring.ReverseString;
 import arraystring.reversewords.ReverseWordsInString;
+import arraystring.runningsum.RunningSum;
 import arraystring.shufflearray.ShuffleArray;
 import arraystring.signproductarray.SignProductArray;
 import arraystring.sortingthesentence.SortingTheSentence;
@@ -433,6 +434,11 @@ public class Main {
         int[] hours = {5,1,4,2,2};
         int targetEmp = 6;
         System.out.println(EmployeesTarget.numberOfEmployeesWhoMetTarget(hours, targetEmp));
+
+        //Array -> RunningSum
+        System.out.println("RunningSum");
+        int[] numsRunningSum = {1,2,3,4};
+        System.out.println(Arrays.toString(RunningSum.runningSum(numsRunningSum)));
 
 
 
