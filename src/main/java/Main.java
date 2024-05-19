@@ -1,6 +1,7 @@
 import arraystring.arrayfrompermutation.ArrayFromPermutation;
 import arraystring.arthmeticprogression.ArithmeticProgression;
 import arraystring.besttimestock.BestTimeStock;
+import arraystring.candies.Candies;
 import arraystring.chackifwordsoccurprefix.CheckIfWordsOccurPrefix;
 import arraystring.checkifsentenceispangram.CheckIfSentenceIsPangram;
 import arraystring.checktwostingsarraysequivalent.CheckIfTwoStringArraysAreEquivalent;
@@ -440,6 +441,12 @@ public class Main {
         int[] numsRunningSum = {1,2,3,4};
         System.out.println(Arrays.toString(RunningSum.runningSum(numsRunningSum)));
         System.out.println(Arrays.toString(RunningSum.runningSum2(numsRunningSum)));
+
+        //Array -> Candies
+        System.out.println("Candies");
+        int[] candies = {2,3,5,1,3};
+        int extraCandies = 3;
+        System.out.println(Candies.kidsWithCandies(candies, extraCandies));
 
 
 
