@@ -9,6 +9,7 @@ import arraystring.checktwostingsarraysequivalent.CheckIfTwoStringArraysAreEquiv
 import arraystring.concatenationofarray.ArrayConcatenation;
 import arraystring.countingwordsprefix.CountingWordsPrefix;
 import arraystring.defangingipaddress.DefangingIPAddress;
+import arraystring.differencesumanddigitsum.SumAndDigitSum;
 import arraystring.employeestarget.EmployeesTarget;
 import arraystring.faultykeyboard.FaultyKeyboard;
 import arraystring.finalvalue.FinalValue;
@@ -455,6 +456,11 @@ public class Main {
         System.out.println("ArrayConditions");
         int[] numsss = {1,3,4,1,2,3,1};
         System.out.println(ArrayConditions.findMatrix(numsss));
+
+        //Array -> SumAndDigitSum
+        System.out.println("SumAndDigitSum");
+        int[] numTable = {1,15,6,3};
+        System.out.println(SumAndDigitSum.differenceOfSum(numTable));
 
 
 
