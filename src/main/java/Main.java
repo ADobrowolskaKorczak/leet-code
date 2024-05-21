@@ -1,3 +1,4 @@
+import arraystring.arrayconditions.ArrayConditions;
 import arraystring.arrayfrompermutation.ArrayFromPermutation;
 import arraystring.arthmeticprogression.ArithmeticProgression;
 import arraystring.besttimestock.BestTimeStock;
@@ -449,6 +450,11 @@ public class Main {
         System.out.println(Candies.kidsWithCandies(candies, extraCandies));
         System.out.println(Candies.kidsWithCandies2(candies, extraCandies));
         System.out.println(Candies.kidsWithCandies3(candies, extraCandies));
+
+        //Array -> ArrayConditions
+        System.out.println("ArrayConditions");
+        int[] numsss = {1,3,4,1,2,3,1};
+        System.out.println(ArrayConditions.findMatrix(numsss));
 
 
 
