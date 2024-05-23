@@ -45,6 +45,7 @@ import arraystring.sortpeople.SortThePeople;
 import arraystring.sortstudents.SortStudents;
 import arraystring.spreadstonesovergrid.NumberOfLaserBeams;
 import arraystring.stringscore.StringScore;
+import arraystring.sumdifferences.SumDifferences;
 import arraystring.tolowercase.ToLowerCase;
 import arraystring.truncatesentence.TruncateSentence;
 import arraystring.validanagram.ValidAnagram;
@@ -461,6 +462,11 @@ public class Main {
         System.out.println("SumAndDigitSum");
         int[] numTable = {1,15,6,3};
         System.out.println(SumAndDigitSum.differenceOfSum(numTable));
+
+        //Array -> SumDifferences
+        System.out.println("SumDifferences");
+        int[] tabSum = {10,4,8,3};
+        System.out.println(Arrays.toString(SumDifferences.leftRightDifference(tabSum)));
 
 
 
