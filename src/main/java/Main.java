@@ -475,6 +475,7 @@ public class Main {
         System.out.println("MiddleIndex");
         int[] tabMiddleIndx = {2,3,-1,8,4};
         System.out.println(MiddleIndex.findMiddleIndex(tabMiddleIndx));
+        System.out.println(MiddleIndex.findMiddleIndex2(tabMiddleIndx));
 
         //Array -> PivotIndex
         System.out.println("PivotIndex");

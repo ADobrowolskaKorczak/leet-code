@@ -31,5 +31,30 @@ public class MiddleIndex {
         return idx;
     }
 
+    public static int findMiddleIndex2(int[] nums) {
+        int idx = -1;
+        int sum = 0;
+        int leftSum = 0;
+        int rightSum = 0;
+        for (int x : nums) {
+            sum += x;
+        }
+        for (int i = 0; i < nums.length; i++) {
+            if (i == 0) {
+                leftSum = 0;
+            } else {
+                leftSum += nums[i-1];
+            }
+            rightSum = sum - leftSum - nums[i];
+            if (leftSum == rightSum) {
+                return i;
+            } else {
+                idx = -1;
+            }
+
+        }
+        return idx;
+    }
+
 
 }
