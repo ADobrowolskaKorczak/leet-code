@@ -45,6 +45,7 @@ import arraystring.signproductarray.SignProductArray;
 import arraystring.sortingthesentence.SortingTheSentence;
 import arraystring.sortpeople.SortThePeople;
 import arraystring.sortstudents.SortStudents;
+import arraystring.splitarray.SplitArray;
 import arraystring.spreadstonesovergrid.NumberOfLaserBeams;
 import arraystring.stringscore.StringScore;
 import arraystring.sumdifferences.SumDifferences;
@@ -479,6 +480,11 @@ public class Main {
         System.out.println("PivotIndex");
         int[] tabPivotIdx = {1,7,3,6,5,6};
         System.out.println(PivotIndex.pivotIndex(tabPivotIdx));
+
+        //Array -> SplitArray
+        System.out.println("SplitArray");
+        int[] tabSplitArray = {10,4,-8,7};
+        System.out.println(SplitArray.waysToSplitArray(tabSplitArray));
 
 
 
