@@ -34,6 +34,7 @@ import arraystring.movezeroes.MoveZeroes;
 import arraystring.numberofgoodpairs.NumberOfGoodPairs;
 import arraystring.pascalstriangle.PascalsTriangle;
 import arraystring.pascalstriangleII.PascalsTriangleTwo;
+import arraystring.pivotindex.PivotIndex;
 import arraystring.removeduplicates.RemoveDuplicates;
 import arraystring.removeelement.RemoveElement;
 import arraystring.reversestring.ReverseString;
@@ -473,6 +474,11 @@ public class Main {
         System.out.println("MiddleIndex");
         int[] tabMiddleIndx = {2,3,-1,8,4};
         System.out.println(MiddleIndex.findMiddleIndex(tabMiddleIndx));
+
+        //Array -> PivotIndex
+        System.out.println("PivotIndex");
+        int[] tabPivotIdx = {1,7,3,6,5,6};
+        System.out.println(PivotIndex.pivotIndex(tabPivotIdx));
 
 
 
