@@ -26,6 +26,7 @@ import arraystring.maxnumberofwords.MaximumNumberOfWords;
 import arraystring.maxnumberstringpairs.MaxNumberOfStringPairs;
 import arraystring.mergesortedarray.MergeSortedArray;
 import arraystring.mergestringsalternately.MergeStringsAlternately;
+import arraystring.middleindex.MiddleIndex;
 import arraystring.minimumnumbergame.MinNumberGame;
 import arraystring.minimumnumberofdecibinary.MinNumberOfDeciBinary;
 import arraystring.minoperationmoveballs.MinOperationMoveBalls;
@@ -467,6 +468,11 @@ public class Main {
         System.out.println("SumDifferences");
         int[] tabSum = {10,4,8,3};
         System.out.println(Arrays.toString(SumDifferences.leftRightDifference(tabSum)));
+
+        //Array -> MiddleIndex
+        System.out.println("MiddleIndex");
+        int[] tabMiddleIndx = {2,3,-1,8,4};
+        System.out.println(MiddleIndex.findMiddleIndex(tabMiddleIndx));
 
 
 
