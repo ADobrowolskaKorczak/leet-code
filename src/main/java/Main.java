@@ -34,6 +34,7 @@ import arraystring.movezeroes.MoveZeroes;
 import arraystring.numberofgoodpairs.NumberOfGoodPairs;
 import arraystring.pascalstriangle.PascalsTriangle;
 import arraystring.pascalstriangleII.PascalsTriangleTwo;
+import arraystring.permutationdifference.PermutationDifference;
 import arraystring.pivotindex.PivotIndex;
 import arraystring.removeduplicates.RemoveDuplicates;
 import arraystring.removeelement.RemoveElement;
@@ -486,6 +487,16 @@ public class Main {
         System.out.println("SplitArray");
         int[] tabSplitArray = {10,4,-8,7};
         System.out.println(SplitArray.waysToSplitArray(tabSplitArray));
+
+        //Array -> PermutationDifference
+        System.out.println("PermutationDifference");
+        String s0 = "abcde";
+        String t0 = "edbac";
+        System.out.println(PermutationDifference.findPermutationDifference(s0, t0));
+
+
+
+
 
 
 
