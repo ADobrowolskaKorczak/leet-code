@@ -28,5 +28,17 @@ public class PermutationDifference {
         return absSum;
     }
 
+    public static int findPermutationDifference2(String s, String t) {
+        int absSum = 0;
+        for (int i = 0; i < s.length(); i++) {
+            for (int j = 0; j < t.length(); j++) {
+                if (s.charAt(i) == t.charAt(j)) {
+                    absSum += Math.abs(i - j);
+                }
+            }
+        }
+        return absSum;
+    }
+
 
 }

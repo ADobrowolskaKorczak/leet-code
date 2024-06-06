@@ -493,6 +493,7 @@ public class Main {
         String s0 = "abcde";
         String t0 = "edbac";
         System.out.println(PermutationDifference.findPermutationDifference(s0, t0));
+        System.out.println(PermutationDifference.findPermutationDifference2(s0, t0));
 
 
 
