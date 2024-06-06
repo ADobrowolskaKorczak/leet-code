@@ -40,5 +40,14 @@ public class PermutationDifference {
         return absSum;
     }
 
+    public static int findPermutationDifference3(String s, String t) {
+        int absSum = 0;
+        for (int i = 0; i < s.length(); i++) {
+            absSum += Math.abs(i - t.indexOf(s.charAt(i)));
+        }
+        return absSum;
+    }
+
+
 
 }
