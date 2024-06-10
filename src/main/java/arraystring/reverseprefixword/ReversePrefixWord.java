@@ -26,5 +26,12 @@ public class ReversePrefixWord {
         return sb.toString();
     }
 
+    public static String reversePrefix2(String word, char ch) {
+        int idx = word.indexOf(ch);
+        StringBuilder sb = new StringBuilder(word.substring(0, idx+1));
+        return sb.reverse().append(word.substring(idx+1, word.length())).toString();
+    }
+
+
 
 }

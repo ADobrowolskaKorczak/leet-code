@@ -502,6 +502,7 @@ public class Main {
         String reverseRord = "abcdefd";
         char ch = 'd';
         System.out.println(ReversePrefixWord.reversePrefix(reverseRord, ch));
+        System.out.println(ReversePrefixWord.reversePrefix2(reverseRord, ch));
 
 
 
