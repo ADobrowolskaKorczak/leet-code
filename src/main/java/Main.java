@@ -38,6 +38,7 @@ import arraystring.permutationdifference.PermutationDifference;
 import arraystring.pivotindex.PivotIndex;
 import arraystring.removeduplicates.RemoveDuplicates;
 import arraystring.removeelement.RemoveElement;
+import arraystring.reverseprefixword.ReversePrefixWord;
 import arraystring.reversestring.ReverseString;
 import arraystring.reversewords.ReverseWordsInString;
 import arraystring.runningsum.RunningSum;
@@ -495,6 +496,12 @@ public class Main {
         System.out.println(PermutationDifference.findPermutationDifference(s0, t0));
         System.out.println(PermutationDifference.findPermutationDifference2(s0, t0));
         System.out.println(PermutationDifference.findPermutationDifference3(s0, t0));
+
+        //String -> ReversePrefixWord
+        System.out.println("ReversePrefixWord");
+        String reverseRord = "abcdefd";
+        char ch = 'd';
+        System.out.println(ReversePrefixWord.reversePrefix(reverseRord, ch));
 
 
 
