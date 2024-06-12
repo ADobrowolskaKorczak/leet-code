@@ -56,6 +56,7 @@ import arraystring.truncatesentence.TruncateSentence;
 import arraystring.validanagram.ValidAnagram;
 import bitmanipulation.singlenumber.SingleNumber;
 import hashtable.findcommonelementsbetweentwoarrays.FindCommonElements;
+import hashtable.grouppeople.GroupPeople;
 import math.countoddnumbers.CountOddNumbers;
 import math.palindromenumber.PalindromeNumber;
 import math.plusone.PlusOne;
@@ -504,6 +505,10 @@ public class Main {
         System.out.println(ReversePrefixWord.reversePrefix(reverseRord, ch));
         System.out.println(ReversePrefixWord.reversePrefix2(reverseRord, ch));
 
+        //HashTable -> GroupPeople
+        System.out.println("GroupPeople");
+        int[] groupSizes = {3,3,3,3,3,1,3};
+        System.out.println(GroupPeople.groupThePeople(groupSizes));
 
 
 
