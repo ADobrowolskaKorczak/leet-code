@@ -55,6 +55,7 @@ import arraystring.tolowercase.ToLowerCase;
 import arraystring.truncatesentence.TruncateSentence;
 import arraystring.validanagram.ValidAnagram;
 import bitmanipulation.singlenumber.SingleNumber;
+import hashtable.decodemessage.DecodeTheMessage;
 import hashtable.findcommonelementsbetweentwoarrays.FindCommonElements;
 import hashtable.grouppeople.GroupPeople;
 import math.countoddnumbers.CountOddNumbers;
@@ -509,6 +510,12 @@ public class Main {
         System.out.println("GroupPeople");
         int[] groupSizes = {3,3,3,3,3,1,3};
         System.out.println(GroupPeople.groupThePeople(groupSizes));
+
+        //HashTable -> DecodeTheMessage
+        System.out.println("DecodeTheMessage");
+        String key = "the quick brown fox jumps over the lazy dog";
+        String message = "vkbs bs t suepuv";
+        System.out.println(DecodeTheMessage.decodeMessage(key, message));
 
 
 
