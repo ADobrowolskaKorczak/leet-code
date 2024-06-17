@@ -51,6 +51,7 @@ import arraystring.splitarray.SplitArray;
 import arraystring.spreadstonesovergrid.NumberOfLaserBeams;
 import arraystring.stringscore.StringScore;
 import arraystring.sumdifferences.SumDifferences;
+import arraystring.timetocollectgarbage.TimeToCollectGarbage;
 import arraystring.tolowercase.ToLowerCase;
 import arraystring.truncatesentence.TruncateSentence;
 import arraystring.validanagram.ValidAnagram;
@@ -516,6 +517,12 @@ public class Main {
         String key = "the quick brown fox jumps over the lazy dog";
         String message = "vkbs bs t suepuv";
         System.out.println(DecodeTheMessage.decodeMessage(key, message));
+
+        //String -> TimeToCollectGarbage
+        System.out.println("TimeToCollectGarbage");
+        String[] garbage = {"G","P","GP", "GG"};
+        int[] travel = {2,4,3};
+        System.out.println(TimeToCollectGarbage.garbageCollection(garbage, travel));
 
 
 
