@@ -17,6 +17,7 @@ import arraystring.finddifferences.FindTheDifference;
 import arraystring.findindex.FindIndexOfFirstString;
 import arraystring.findwordscontainingcharacter.FindWordsContainingCharacter;
 import arraystring.fizzbuzz.FizzBuzz;
+import arraystring.goalparserinterpretation.GoalParserInterpretation;
 import arraystring.howmanynumbersaresmaller.HowManyNumbersAreSmaller;
 import arraystring.jewelsandstones.JewelsAndStones;
 import arraystring.lengthoflasword.LengthLastWord;
@@ -524,7 +525,10 @@ public class Main {
         int[] travel = {2,4,3};
         System.out.println(TimeToCollectGarbage.garbageCollection(garbage, travel));
 
-
+        //String -> GoalParserInterpretation
+        System.out.println("GoalParserInterpretation");
+        String command = "G()()()()(al)";
+        System.out.println(GoalParserInterpretation.interpret(command));
 
 
 
