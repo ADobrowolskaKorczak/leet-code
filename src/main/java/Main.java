@@ -57,6 +57,7 @@ import arraystring.tolowercase.ToLowerCase;
 import arraystring.truncatesentence.TruncateSentence;
 import arraystring.validanagram.ValidAnagram;
 import bitmanipulation.singlenumber.SingleNumber;
+import divisiblebythree.DivisibleByThree;
 import hashtable.decodemessage.DecodeTheMessage;
 import hashtable.findcommonelementsbetweentwoarrays.FindCommonElements;
 import hashtable.grouppeople.GroupPeople;
@@ -529,6 +530,11 @@ public class Main {
         System.out.println("GoalParserInterpretation");
         String command = "G()()()()(al)";
         System.out.println(GoalParserInterpretation.interpret(command));
+
+        //Array - > DivisibleByThree
+        System.out.println("DivisibleByThree");
+        int[] three = {1,2,3,4};
+        System.out.println(DivisibleByThree.minimumOperations(three));
 
 
 
