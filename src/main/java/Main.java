@@ -1,6 +1,7 @@
 import arraystring.arrayconditions.ArrayConditions;
 import arraystring.arrayfrompermutation.ArrayFromPermutation;
 import arraystring.arthmeticprogression.ArithmeticProgression;
+import arraystring.balancedstring.BalancedString;
 import arraystring.besttimestock.BestTimeStock;
 import arraystring.candies.Candies;
 import arraystring.chackifwordsoccurprefix.CheckIfWordsOccurPrefix;
@@ -535,6 +536,12 @@ public class Main {
         System.out.println("DivisibleByThree");
         int[] three = {1,2,3,4};
         System.out.println(DivisibleByThree.minimumOperations(three));
+        System.out.println(DivisibleByThree.minimumOperations2(three));
+
+        //String -> BalancedString
+        System.out.println("BalancedString");
+        String balance = "RLRRRLLRLL";
+        System.out.println(BalancedString.balancedStringSplit(balance));
 
 
 
