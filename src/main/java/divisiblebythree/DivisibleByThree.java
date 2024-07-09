@@ -17,7 +17,17 @@ public class DivisibleByThree {
         int count = 0;
         for (int i = 0; i < nums.length; i++) {
             if (nums[i] % 3 != 0) {
-                if (Math.round((float)nums[i]/3) == 0) {
+                count++;
+            }
+        }
+        return count;
+    }
+
+    public static int minimumOperations2(int[] nums) {
+        int count = 0;
+        for (int i = 0; i < nums.length; i++) {
+            if (nums[i] % 3 != 0) {
+                if ((float)nums[i]/3 == 0) {
                     count++;
                 } else {
                     count++;
@@ -26,6 +36,9 @@ public class DivisibleByThree {
         }
         return count;
     }
+
+
+
 }
 
 
