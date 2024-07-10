@@ -8,6 +8,7 @@ import arraystring.chackifwordsoccurprefix.CheckIfWordsOccurPrefix;
 import arraystring.checkifsentenceispangram.CheckIfSentenceIsPangram;
 import arraystring.checktwostingsarraysequivalent.CheckIfTwoStringArraysAreEquivalent;
 import arraystring.concatenationofarray.ArrayConcatenation;
+import arraystring.consistentstring.ConsistentString;
 import arraystring.countingwordsprefix.CountingWordsPrefix;
 import arraystring.defangingipaddress.DefangingIPAddress;
 import arraystring.differencesumanddigitsum.SumAndDigitSum;
@@ -542,6 +543,13 @@ public class Main {
         System.out.println("BalancedString");
         String balance = "RLRRRLLRLL";
         System.out.println(BalancedString.balancedStringSplit(balance));
+
+        //String - > ConsistentString
+        System.out.println("ConsistentString");
+        String allowed = "cad";
+        String[] wordsCS = {"cc","acd","b","ba","bac","bad","ac","d"};
+        System.out.println(ConsistentString.countConsistentStrings(allowed, wordsCS));
+
 
 
 
