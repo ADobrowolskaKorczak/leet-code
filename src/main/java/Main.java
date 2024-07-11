@@ -1,3 +1,4 @@
+import arraystring.acronymofwords.AcronymOfWords;
 import arraystring.arrayconditions.ArrayConditions;
 import arraystring.arrayfrompermutation.ArrayFromPermutation;
 import arraystring.arthmeticprogression.ArithmeticProgression;
@@ -549,6 +550,12 @@ public class Main {
         String allowed = "cad";
         String[] wordsCS = {"cc","acd","b","ba","bac","bad","ac","d"};
         System.out.println(ConsistentString.countConsistentStrings(allowed, wordsCS));
+
+        //String ->AcronymOfWords
+        System.out.println("AcronymOfWords");
+        List<String> strings = List.of("afqcpzsx","icenu");
+        String acronym = "yi";
+        System.out.println(AcronymOfWords.isAcronym(strings, acronym));
 
 
 
