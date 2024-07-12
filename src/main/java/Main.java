@@ -12,6 +12,7 @@ import arraystring.concatenationofarray.ArrayConcatenation;
 import arraystring.consistentstring.ConsistentString;
 import arraystring.countingwordsprefix.CountingWordsPrefix;
 import arraystring.defangingipaddress.DefangingIPAddress;
+import arraystring.destinationcity.DestinationCity;
 import arraystring.differencesumanddigitsum.SumAndDigitSum;
 import arraystring.employeestarget.EmployeesTarget;
 import arraystring.faultykeyboard.FaultyKeyboard;
@@ -556,6 +557,12 @@ public class Main {
         List<String> strings = List.of("afqcpzsx","icenu");
         String acronym = "yi";
         System.out.println(AcronymOfWords.isAcronym(strings, acronym));
+        System.out.println(AcronymOfWords.isAcronym2(strings, acronym));
+
+        //String -> DestinationCity
+        System.out.println("DestinationCity");
+        List<List<String>> paths = List.of(List.of("B","C"), List.of("D","B"), List.of("C","A"));
+        System.out.println(DestinationCity.destCity(paths));
 
 
 

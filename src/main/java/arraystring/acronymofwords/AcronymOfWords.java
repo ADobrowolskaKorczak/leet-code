@@ -23,6 +23,14 @@ public class AcronymOfWords {
         return flag;
     }
 
+    public static boolean isAcronym2(List<String> words, String s) {
+        StringBuilder sb = new StringBuilder();
+        for (int i = 0; i < s.length(); i++) {
+            sb.append(words.get(i).charAt(0));
+        }
+        return s.equals(sb.toString());
+    }
+
 
 
 }
