@@ -9,7 +9,9 @@ consist of: "London" -> "New York" -> "Lima" -> "Sao Paulo".
 
  */
 
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 public class DestinationCity {
 
@@ -21,6 +23,18 @@ public class DestinationCity {
                     city = paths.get(j).get(1);
                 }
             }
+        }
+        return city;
+    }
+
+    public static String destCity2(List<List<String>> paths) {
+        Map<String, String> map = new HashMap<>();
+        for (List<String> c : paths) {
+            map.put(c.get(0), c.get(1));
+        }
+        String city = paths.get(0).get(0);
+        while (map.containsKey(city)) {
+            city = map.get(city);
         }
         return city;
     }

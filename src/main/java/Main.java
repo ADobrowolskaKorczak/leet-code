@@ -563,6 +563,7 @@ public class Main {
         System.out.println("DestinationCity");
         List<List<String>> paths = List.of(List.of("B","C"), List.of("D","B"), List.of("C","A"));
         System.out.println(DestinationCity.destCity(paths));
+        System.out.println(DestinationCity.destCity2(paths));
 
 
 
