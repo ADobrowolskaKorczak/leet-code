@@ -5,6 +5,7 @@ import arraystring.arthmeticprogression.ArithmeticProgression;
 import arraystring.balancedstring.BalancedString;
 import arraystring.besttimestock.BestTimeStock;
 import arraystring.candies.Candies;
+import arraystring.canplaceflowers.CanPlaceFlowers;
 import arraystring.chackifwordsoccurprefix.CheckIfWordsOccurPrefix;
 import arraystring.checkifsentenceispangram.CheckIfSentenceIsPangram;
 import arraystring.checktwostingsarraysequivalent.CheckIfTwoStringArraysAreEquivalent;
@@ -65,12 +66,13 @@ import divisiblebythree.DivisibleByThree;
 import hashtable.decodemessage.DecodeTheMessage;
 import hashtable.findcommonelementsbetweentwoarrays.FindCommonElements;
 import hashtable.grouppeople.GroupPeople;
+import math.convertthetemperature.ConvertTheTemperature;
 import math.countoddnumbers.CountOddNumbers;
 import math.palindromenumber.PalindromeNumber;
 import math.plusone.PlusOne;
 import matrix.matrixdiagonalsum.MatrixDiagonalSum;
-import matrix.richestcustomerwealth.RichestCustomerWealth;
 import matrix.minstepstomakeanagram.MinStepsToMakeAnagram;
+import matrix.richestcustomerwealth.RichestCustomerWealth;
 import twopointers.countnumberoffairpairs.CountNumberOfFairPairs;
 import twopointers.countpairssumlessthantarget.CountPairsWhoseSumIsLessThanTarget;
 import twopointers.issubsequence.IsSubsequence;
@@ -81,6 +83,8 @@ import twopointers.validpalindrome.ValidPalindrome;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+
+import static math.convertthetemperature.ConvertTheTemperature.convertTemperature;
 
 public class Main {
 
@@ -564,6 +568,17 @@ public class Main {
         List<List<String>> paths = List.of(List.of("B","C"), List.of("D","B"), List.of("C","A"));
         System.out.println(DestinationCity.destCity(paths));
         System.out.println(DestinationCity.destCity2(paths));
+
+        //Array -> CanPlaceFlowers
+        System.out.println("CanPlaceFlowers");
+        int[] flowerbed = {1,0,1,0,1,0,1};
+        int numFlowers = 0;
+        System.out.println(CanPlaceFlowers.canPlaceFlowers(flowerbed, numFlowers));
+
+        //Math -> ConvertTheTemperature
+        System.out.println("ConvertTheTemperature");
+        double temperature = 36.50;
+        System.out.println(Arrays.toString(convertTemperature(temperature)));
 
 
 
