@@ -85,6 +85,7 @@ import java.util.Arrays;
 import java.util.List;
 
 import static math.convertthetemperature.ConvertTheTemperature.convertTemperature;
+import static math.convertthetemperature.ConvertTheTemperature.convertTemperature2;
 
 public class Main {
 
@@ -579,6 +580,7 @@ public class Main {
         System.out.println("ConvertTheTemperature");
         double temperature = 36.50;
         System.out.println(Arrays.toString(convertTemperature(temperature)));
+        System.out.println(Arrays.toString(convertTemperature2(temperature)));
 
 
 

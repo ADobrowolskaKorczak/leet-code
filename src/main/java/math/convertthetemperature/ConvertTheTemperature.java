@@ -26,4 +26,9 @@ public class ConvertTheTemperature {
         return ans;
     }
 
+    public static double[] convertTemperature2(double celsius) {
+        return new double[] {celsius + 273.15, celsius * 1.80 + 32.00};
+    }
+
+
 }
