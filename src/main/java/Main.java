@@ -68,6 +68,7 @@ import hashtable.findcommonelementsbetweentwoarrays.FindCommonElements;
 import hashtable.grouppeople.GroupPeople;
 import math.convertthetemperature.ConvertTheTemperature;
 import math.countoddnumbers.CountOddNumbers;
+import math.divisiblenondivisiblesum.DivisibleNonDivisibleSum;
 import math.palindromenumber.PalindromeNumber;
 import math.plusone.PlusOne;
 import matrix.matrixdiagonalsum.MatrixDiagonalSum;
@@ -581,6 +582,12 @@ public class Main {
         double temperature = 36.50;
         System.out.println(Arrays.toString(convertTemperature(temperature)));
         System.out.println(Arrays.toString(convertTemperature2(temperature)));
+
+        //Math -> DivisibleNonDivisibleSum
+        System.out.println("DivisibleNonDivisibleSum");
+        int nn = 5;
+        int mm = 6;
+        System.out.println(DivisibleNonDivisibleSum.differenceOfSums(nn, mm));
 
 
 
