@@ -71,6 +71,7 @@ import math.countoddnumbers.CountOddNumbers;
 import math.divisiblenondivisiblesum.DivisibleNonDivisibleSum;
 import math.palindromenumber.PalindromeNumber;
 import math.plusone.PlusOne;
+import math.smallestevenmultiple.SmallestEvenMultiple;
 import matrix.matrixdiagonalsum.MatrixDiagonalSum;
 import matrix.minstepstomakeanagram.MinStepsToMakeAnagram;
 import matrix.richestcustomerwealth.RichestCustomerWealth;
@@ -589,6 +590,10 @@ public class Main {
         int mm = 6;
         System.out.println(DivisibleNonDivisibleSum.differenceOfSums(nn, mm));
 
+        //Math -> SmallestEvenMultiple
+        System.out.println("SmallestEvenMultiple");
+        int sem = 5;
+        System.out.println(SmallestEvenMultiple.smallestEvenMultiple(sem));
 
 
 
