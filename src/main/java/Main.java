@@ -69,8 +69,10 @@ import hashtable.grouppeople.GroupPeople;
 import math.convertthetemperature.ConvertTheTemperature;
 import math.countoddnumbers.CountOddNumbers;
 import math.divisiblenondivisiblesum.DivisibleNonDivisibleSum;
+import math.minsum.MinSum;
 import math.palindromenumber.PalindromeNumber;
 import math.plusone.PlusOne;
+import math.productandsum.ProductAndSum;
 import math.smallestevenmultiple.SmallestEvenMultiple;
 import matrix.matrixdiagonalsum.MatrixDiagonalSum;
 import matrix.minstepstomakeanagram.MinStepsToMakeAnagram;
@@ -594,6 +596,13 @@ public class Main {
         System.out.println("SmallestEvenMultiple");
         int sem = 5;
         System.out.println(SmallestEvenMultiple.smallestEvenMultiple(sem));
+
+        //Math -> ProductAndSum
+        System.out.println("ProductAndSum");
+        int pad = 234;
+        System.out.println(ProductAndSum.subtractProductAndSum(pad));
+
+
 
 
 
