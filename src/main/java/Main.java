@@ -74,6 +74,7 @@ import math.palindromenumber.PalindromeNumber;
 import math.plusone.PlusOne;
 import math.productandsum.ProductAndSum;
 import math.smallestevenmultiple.SmallestEvenMultiple;
+import math.summultiples.SumMultiples;
 import matrix.matrixdiagonalsum.MatrixDiagonalSum;
 import matrix.minstepstomakeanagram.MinStepsToMakeAnagram;
 import matrix.richestcustomerwealth.RichestCustomerWealth;
@@ -606,6 +607,11 @@ public class Main {
         System.out.println("MinSum");
         int ms = 2932;
         System.out.println(MinSum.minimumSum(ms));
+
+        //Math -> SumMultiples
+        System.out.println("SumMultiples");
+        int sm = 7;
+        System.out.println(SumMultiples.sumOfMultiples(sm));
 
 
 
