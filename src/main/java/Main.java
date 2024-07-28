@@ -602,6 +602,10 @@ public class Main {
         int pad = 234;
         System.out.println(ProductAndSum.subtractProductAndSum(pad));
 
+        //Math -> MinSum
+        System.out.println("MinSum");
+        int ms = 2932;
+        System.out.println(MinSum.minimumSum(ms));
 
 
 
