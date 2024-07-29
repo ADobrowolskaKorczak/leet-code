@@ -70,6 +70,7 @@ import math.convertthetemperature.ConvertTheTemperature;
 import math.countoddnumbers.CountOddNumbers;
 import math.divisiblenondivisiblesum.DivisibleNonDivisibleSum;
 import math.minsum.MinSum;
+import math.numberofmatches.NumberOfMatches;
 import math.palindromenumber.PalindromeNumber;
 import math.plusone.PlusOne;
 import math.productandsum.ProductAndSum;
@@ -612,6 +613,11 @@ public class Main {
         System.out.println("SumMultiples");
         int sm = 7;
         System.out.println(SumMultiples.sumOfMultiples(sm));
+
+        //Math -> NumberOfMatches
+        System.out.println("NumberOfMatches");
+        int nom = 14;
+        System.out.println(NumberOfMatches.numberOfMatches(nom));
 
 
 
