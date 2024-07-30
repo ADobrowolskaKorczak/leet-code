@@ -74,6 +74,7 @@ import math.numberofmatches.NumberOfMatches;
 import math.palindromenumber.PalindromeNumber;
 import math.plusone.PlusOne;
 import math.productandsum.ProductAndSum;
+import math.reducenumbertozero.ReduceNumberToZero;
 import math.smallestevenmultiple.SmallestEvenMultiple;
 import math.summultiples.SumMultiples;
 import matrix.matrixdiagonalsum.MatrixDiagonalSum;
@@ -618,6 +619,11 @@ public class Main {
         System.out.println("NumberOfMatches");
         int nom = 14;
         System.out.println(NumberOfMatches.numberOfMatches(nom));
+
+        //Math -> ReduceNumberToZero
+        System.out.println("ReduceNumberToZero");
+        int rntz = 14;
+        System.out.println(ReduceNumberToZero.numberOfSteps(rntz));
 
 
 
