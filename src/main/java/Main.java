@@ -69,6 +69,7 @@ import hashtable.grouppeople.GroupPeople;
 import math.convertthetemperature.ConvertTheTemperature;
 import math.countoddnumbers.CountOddNumbers;
 import math.divisiblenondivisiblesum.DivisibleNonDivisibleSum;
+import math.harshadnumber.HarshadNumber;
 import math.minsum.MinSum;
 import math.numberofmatches.NumberOfMatches;
 import math.palindromenumber.PalindromeNumber;
@@ -624,6 +625,11 @@ public class Main {
         System.out.println("ReduceNumberToZero");
         int rntz = 14;
         System.out.println(ReduceNumberToZero.numberOfSteps(rntz));
+
+        //Math -> HarshadNumber
+        System.out.println("HarshadNumber");
+        int hn = 18;
+        System.out.println(HarshadNumber.sumOfTheDigitsOfHarshadNumber(hn));
 
 
 
