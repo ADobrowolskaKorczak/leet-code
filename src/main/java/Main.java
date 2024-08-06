@@ -70,6 +70,7 @@ import math.convertthetemperature.ConvertTheTemperature;
 import math.countoddnumbers.CountOddNumbers;
 import math.divisiblenondivisiblesum.DivisibleNonDivisibleSum;
 import math.harshadnumber.HarshadNumber;
+import math.makearrayequal.MakeArrayEqual;
 import math.minsum.MinSum;
 import math.numberofmatches.NumberOfMatches;
 import math.palindromenumber.PalindromeNumber;
@@ -630,6 +631,11 @@ public class Main {
         System.out.println("HarshadNumber");
         int hn = 18;
         System.out.println(HarshadNumber.sumOfTheDigitsOfHarshadNumber(hn));
+
+        //Math -> MakeArrayEqual
+        System.out.println("MakeArrayEqual");
+        int mae = 5;
+        System.out.println(MakeArrayEqual.minOperations(mae));
 
 
 
