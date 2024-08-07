@@ -72,6 +72,7 @@ import math.divisiblenondivisiblesum.DivisibleNonDivisibleSum;
 import math.harshadnumber.HarshadNumber;
 import math.makearrayequal.MakeArrayEqual;
 import math.minsum.MinSum;
+import math.numberofcoins.NumberOfCoins;
 import math.numberofmatches.NumberOfMatches;
 import math.palindromenumber.PalindromeNumber;
 import math.plusone.PlusOne;
@@ -636,6 +637,11 @@ public class Main {
         System.out.println("MakeArrayEqual");
         int mae = 5;
         System.out.println(MakeArrayEqual.minOperations(mae));
+
+        //Math -> NumberOfCoins
+        System.out.println("NumberOfCoins");
+        int[] piles = {9,8,7,6,5,1,2,3,4};
+        System.out.println(NumberOfCoins.maxCoins(piles));
 
 
 
