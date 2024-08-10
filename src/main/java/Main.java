@@ -80,6 +80,7 @@ import math.productandsum.ProductAndSum;
 import math.reducenumbertozero.ReduceNumberToZero;
 import math.smallestevenmultiple.SmallestEvenMultiple;
 import math.summultiples.SumMultiples;
+import math.winnercirculargame.WinnerCircularGame;
 import matrix.matrixdiagonalsum.MatrixDiagonalSum;
 import matrix.minstepstomakeanagram.MinStepsToMakeAnagram;
 import matrix.richestcustomerwealth.RichestCustomerWealth;
@@ -643,6 +644,11 @@ public class Main {
         int[] piles = {9,8,7,6,5,1,2,3,4};
         System.out.println(NumberOfCoins.maxCoins(piles));
 
+        //Math -> WinnerCircularGame
+        System.out.println("WinnerCircularGame");
+        int wcg1 = 5;
+        int wcg2 = 2;
+        System.out.println(WinnerCircularGame.findTheWinner(wcg1, wcg2));
 
 
 
