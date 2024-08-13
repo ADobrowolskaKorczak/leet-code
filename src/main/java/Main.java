@@ -75,6 +75,7 @@ import math.minsum.MinSum;
 import math.numberofcoins.NumberOfCoins;
 import math.numberofmatches.NumberOfMatches;
 import math.palindromenumber.PalindromeNumber;
+import math.pivotinteger.PivotInteger;
 import math.plusone.PlusOne;
 import math.productandsum.ProductAndSum;
 import math.reducenumbertozero.ReduceNumberToZero;
@@ -649,6 +650,11 @@ public class Main {
         int wcg1 = 5;
         int wcg2 = 2;
         System.out.println(WinnerCircularGame.findTheWinner(wcg1, wcg2));
+
+        //Math -> PivotInteger
+        System.out.println("PivotInteger");
+        int pi = 4;
+        System.out.println(PivotInteger.pivotInteger(pi));
 
 
 
