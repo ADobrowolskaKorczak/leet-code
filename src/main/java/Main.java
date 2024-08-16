@@ -66,8 +66,8 @@ import divisiblebythree.DivisibleByThree;
 import hashtable.decodemessage.DecodeTheMessage;
 import hashtable.findcommonelementsbetweentwoarrays.FindCommonElements;
 import hashtable.grouppeople.GroupPeople;
-import math.convertthetemperature.ConvertTheTemperature;
 import math.countoddnumbers.CountOddNumbers;
+import math.distinctintegers.DistinctIntegers;
 import math.divisiblenondivisiblesum.DivisibleNonDivisibleSum;
 import math.harshadnumber.HarshadNumber;
 import math.makearrayequal.MakeArrayEqual;
@@ -655,6 +655,12 @@ public class Main {
         System.out.println("PivotInteger");
         int pi = 4;
         System.out.println(PivotInteger.pivotInteger(pi));
+
+        //Math -> DistinctIntegers
+        System.out.println("DistinctIntegers");
+        int[] di = {1,13,10,12,31};
+        System.out.println(DistinctIntegers.countDistinctIntegers(di));
+        System.out.println(DistinctIntegers.countDistinctIntegers2(di));
 
 
 

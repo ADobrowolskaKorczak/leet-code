@@ -32,4 +32,23 @@ public class DistinctIntegers {
         }
         return set.size();
     }
+    public static int countDistinctIntegers2(int[] nums) {
+        Set<Integer> set = new HashSet<>();
+        for (int i = 0; i < nums.length; i++) {
+            set.add((nums[i]));
+            int remainder = 0;
+            int rev = 0;
+            while (nums[i] > 0) {
+                remainder = nums[i] % 10;
+                rev = (rev * 10) + remainder;
+                nums[i] /= 10;
+            }
+            set.add(rev);
+        }
+        return set.size();
+    }
+
+
+
+
 }
