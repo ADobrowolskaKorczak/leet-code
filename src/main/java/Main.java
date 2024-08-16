@@ -661,6 +661,7 @@ public class Main {
         int[] di = {1,13,10,12,31};
         System.out.println(DistinctIntegers.countDistinctIntegers(di));
         System.out.println(DistinctIntegers.countDistinctIntegers2(di));
+        System.out.println(DistinctIntegers.countDistinctIntegers3(di));
 
 
 

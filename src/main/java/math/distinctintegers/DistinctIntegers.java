@@ -48,6 +48,14 @@ public class DistinctIntegers {
         return set.size();
     }
 
+    public static int countDistinctIntegers3(int[] nums) {
+        Set<Integer> set = new HashSet<>();
+        for (int i = 0; i < nums.length; i++) {
+        set.add(nums[i]);
+        set.add(Integer.parseInt(new StringBuilder(String.valueOf(nums[i])).reverse().toString()));
+        }
+        return set.size();
+    }
 
 
 
