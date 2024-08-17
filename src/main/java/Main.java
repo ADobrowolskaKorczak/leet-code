@@ -666,8 +666,10 @@ public class Main {
 
         //Math -> MaxNumber
         System.out.println("MaxNumber");
-        int mn = 9999;
+        int mn = 9669;
         System.out.println(MaxNumber.maximum69Number(mn));
+        System.out.println(MaxNumber.maximum69Number2(mn));
+        System.out.println(MaxNumber.maximum69Number3(mn));
 
 
 

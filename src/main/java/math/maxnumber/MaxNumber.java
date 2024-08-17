@@ -24,4 +24,30 @@ public class MaxNumber {
         }
         return Integer.parseInt(sb.toString());
     }
+
+    public static int maximum69Number2 (int num) {
+        StringBuilder sb = new StringBuilder(String.valueOf(num));
+        for (int i = 0; i < String.valueOf(num).length(); i++) {
+            if (sb.charAt(i) == '9') {
+                continue;
+            } else {
+                sb.setCharAt(i, '9');
+                break;
+            }
+        }
+        return Integer.parseInt(sb.toString());
+    }
+
+    public static int maximum69Number3 (int num) {
+        StringBuilder sb = new StringBuilder(String.valueOf(num));
+        for (int i = 0; i < String.valueOf(num).length(); i++) {
+            if (sb.charAt(i) == '6') {
+                sb.setCharAt(i, '9');
+                break;
+            }
+        }
+        return Integer.parseInt(sb.toString());
+    }
+
+
 }
