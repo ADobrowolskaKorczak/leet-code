@@ -71,6 +71,7 @@ import math.distinctintegers.DistinctIntegers;
 import math.divisiblenondivisiblesum.DivisibleNonDivisibleSum;
 import math.harshadnumber.HarshadNumber;
 import math.makearrayequal.MakeArrayEqual;
+import math.maxnumber.MaxNumber;
 import math.minsum.MinSum;
 import math.numberofcoins.NumberOfCoins;
 import math.numberofmatches.NumberOfMatches;
@@ -662,6 +663,11 @@ public class Main {
         System.out.println(DistinctIntegers.countDistinctIntegers(di));
         System.out.println(DistinctIntegers.countDistinctIntegers2(di));
         System.out.println(DistinctIntegers.countDistinctIntegers3(di));
+
+        //Math -> MaxNumber
+        System.out.println("MaxNumber");
+        int mn = 9999;
+        System.out.println(MaxNumber.maximum69Number(mn));
 
 
 
