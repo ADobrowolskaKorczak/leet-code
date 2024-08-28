@@ -66,6 +66,7 @@ import divisiblebythree.DivisibleByThree;
 import hashtable.decodemessage.DecodeTheMessage;
 import hashtable.findcommonelementsbetweentwoarrays.FindCommonElements;
 import hashtable.grouppeople.GroupPeople;
+import math.countnumbers.CountNumbers;
 import math.countoddnumbers.CountOddNumbers;
 import math.distinctintegers.DistinctIntegers;
 import math.divisiblenondivisiblesum.DivisibleNonDivisibleSum;
@@ -670,6 +671,11 @@ public class Main {
         System.out.println(MaxNumber.maximum69Number(mn));
         System.out.println(MaxNumber.maximum69Number2(mn));
         System.out.println(MaxNumber.maximum69Number3(mn));
+
+        //Math -> CountNumbers
+        System.out.println("CountNumbers");
+        int cn = 7;
+        System.out.println(CountNumbers.countDigits(cn));
 
 
 
