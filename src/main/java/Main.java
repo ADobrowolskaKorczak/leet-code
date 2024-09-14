@@ -61,6 +61,7 @@ import arraystring.timetocollectgarbage.TimeToCollectGarbage;
 import arraystring.tolowercase.ToLowerCase;
 import arraystring.truncatesentence.TruncateSentence;
 import arraystring.validanagram.ValidAnagram;
+import arraystring.wordpattern.WordPattern;
 import bitmanipulation.singlenumber.SingleNumber;
 import divisiblebythree.DivisibleByThree;
 import hashtable.decodemessage.DecodeTheMessage;
@@ -676,6 +677,13 @@ public class Main {
         System.out.println("CountNumbers");
         int cn = 7;
         System.out.println(CountNumbers.countDigits(cn));
+
+        //String -> WordPattern
+        System.out.println("WordPattern");
+        String pattern = "abba";
+        String wp = "dog cat cat fish";
+        System.out.println(WordPattern.wordPattern(pattern, wp));
+
 
 
 
