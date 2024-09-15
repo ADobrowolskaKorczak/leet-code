@@ -21,6 +21,7 @@ import arraystring.finalvalue.FinalValue;
 import arraystring.finddifferences.FindTheDifference;
 import arraystring.findindex.FindIndexOfFirstString;
 import arraystring.findwordscontainingcharacter.FindWordsContainingCharacter;
+import arraystring.firstuniquecharacter.FirstUniqueCharacter;
 import arraystring.fizzbuzz.FizzBuzz;
 import arraystring.goalparserinterpretation.GoalParserInterpretation;
 import arraystring.howmanynumbersaresmaller.HowManyNumbersAreSmaller;
@@ -683,6 +684,11 @@ public class Main {
         String pattern = "abba";
         String wp = "dog cat cat fish";
         System.out.println(WordPattern.wordPattern(pattern, wp));
+
+        //String -> FirstUniqueCharacter
+        System.out.println("FirstUniqueCharacter");
+        String fuc = "loveleetcode";
+        System.out.println(FirstUniqueCharacter.firstUniqChar(fuc));
 
 
 
