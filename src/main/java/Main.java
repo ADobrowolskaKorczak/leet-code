@@ -39,6 +39,7 @@ import arraystring.minimumnumberofdecibinary.MinNumberOfDeciBinary;
 import arraystring.minoperationmoveballs.MinOperationMoveBalls;
 import arraystring.movezeroes.MoveZeroes;
 import arraystring.numberofgoodpairs.NumberOfGoodPairs;
+import arraystring.numberofsegments.NumberOfSegments;
 import arraystring.pascalstriangle.PascalsTriangle;
 import arraystring.pascalstriangleII.PascalsTriangleTwo;
 import arraystring.permutationdifference.PermutationDifference;
@@ -689,6 +690,11 @@ public class Main {
         System.out.println("FirstUniqueCharacter");
         String fuc = "loveleetcode";
         System.out.println(FirstUniqueCharacter.firstUniqChar(fuc));
+
+        //String -> NumberOfSegments
+        System.out.println("NumberOfSegments");
+        String nos = "Hello, my name is John";
+        System.out.println(NumberOfSegments.countSegments(nos));
 
 
 
