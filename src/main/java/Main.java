@@ -696,6 +696,11 @@ public class Main {
         String nos = "Hello, my name is John";
         System.out.println(NumberOfSegments.countSegments(nos));
 
+        //String -> ReverseWordsInString
+        System.out.println("ReverseWordsInString");
+        String rwis = "a good   example";
+        System.out.println(arraystring.reversewordsinstring.ReverseWordsInString.reverseWords(rwis));
+
 
 
 
