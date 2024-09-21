@@ -49,6 +49,7 @@ import arraystring.removeelement.RemoveElement;
 import arraystring.reverseprefixword.ReversePrefixWord;
 import arraystring.reversestring.ReverseString;
 import arraystring.reversewords.ReverseWordsInString;
+import arraystring.rotatearray.RotateArray;
 import arraystring.runningsum.RunningSum;
 import arraystring.shufflearray.ShuffleArray;
 import arraystring.signproductarray.SignProductArray;
@@ -700,6 +701,12 @@ public class Main {
         System.out.println("ReverseWordsInString");
         String rwis = "a good   example";
         System.out.println(arraystring.reversewordsinstring.ReverseWordsInString.reverseWords(rwis));
+
+        //String -> RotateArray
+        System.out.println("RotateArray");
+        int[] ra = {1,2};
+        int kra = 3;
+        RotateArray.rotate(ra, kra);
 
 
 
