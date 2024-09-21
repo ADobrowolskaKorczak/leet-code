@@ -707,6 +707,7 @@ public class Main {
         int[] ra = {1,2};
         int kra = 3;
         RotateArray.rotate(ra, kra);
+        RotateArray.rotate2(ra, kra);
 
 
 
