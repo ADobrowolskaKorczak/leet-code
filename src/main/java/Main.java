@@ -717,6 +717,8 @@ public class Main {
         int msam = 3;
         int msan = 3;
         MergeSortedArrays.merge(msanums1, msam, msanums2, msan);
+        System.out.println();
+        MergeSortedArrays.merge2(msanums1, msam, msanums2, msan);
 
 
 
