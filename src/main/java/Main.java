@@ -32,6 +32,7 @@ import arraystring.maximumingeneratedarray.GetMaximumInGeneratedArray;
 import arraystring.maxnumberofwords.MaximumNumberOfWords;
 import arraystring.maxnumberstringpairs.MaxNumberOfStringPairs;
 import arraystring.mergesortedarray.MergeSortedArray;
+import arraystring.mergesortedarrays.MergeSortedArrays;
 import arraystring.mergestringsalternately.MergeStringsAlternately;
 import arraystring.middleindex.MiddleIndex;
 import arraystring.minimumnumbergame.MinNumberGame;
@@ -708,6 +709,14 @@ public class Main {
         int kra = 3;
         RotateArray.rotate(ra, kra);
         RotateArray.rotate2(ra, kra);
+
+        //Array -> MergeSortedArrays
+        System.out.println("MergeSortedArrays");
+        int[] msanums1 = {1,2,3,0,0,0};
+        int[] msanums2 ={2,5,6};
+        int msam = 3;
+        int msan = 3;
+        MergeSortedArrays.merge(msanums1, msam, msanums2, msan);
 
 
 
