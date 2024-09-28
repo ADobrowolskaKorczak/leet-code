@@ -27,6 +27,7 @@ import arraystring.goalparserinterpretation.GoalParserInterpretation;
 import arraystring.howmanynumbersaresmaller.HowManyNumbersAreSmaller;
 import arraystring.jewelsandstones.JewelsAndStones;
 import arraystring.lengthoflasword.LengthLastWord;
+import arraystring.longestcommonprefix.LongestCommonPrefix;
 import arraystring.majorityelement.MajorityElement;
 import arraystring.maximumingeneratedarray.GetMaximumInGeneratedArray;
 import arraystring.maxnumberofwords.MaximumNumberOfWords;
@@ -719,6 +720,12 @@ public class Main {
         MergeSortedArrays.merge(msanums1, msam, msanums2, msan);
         System.out.println();
         MergeSortedArrays.merge2(msanums1, msam, msanums2, msan);
+        System.out.println();
+
+        //String -> LongestCommonPrefix
+        System.out.println("LongestCommonPrefix");
+        String[] lcp = {"xflower","flow","flight"};
+        System.out.println(LongestCommonPrefix.longestCommonPrefix(lcp));
 
 
 
