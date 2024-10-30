@@ -50,6 +50,7 @@ import arraystring.removeduplicates.RemoveDuplicates;
 import arraystring.removeelement.RemoveElement;
 import arraystring.reverseprefixword.ReversePrefixWord;
 import arraystring.reversestring.ReverseString;
+import arraystring.reversevowels.ReverseVowels;
 import arraystring.reversewords.ReverseWordsInString;
 import arraystring.rotatearray.RotateArray;
 import arraystring.runningsum.RunningSum;
@@ -726,6 +727,11 @@ public class Main {
         System.out.println("LongestCommonPrefix");
         String[] lcp = {"xflower","flow","flight"};
         System.out.println(LongestCommonPrefix.longestCommonPrefix(lcp));
+
+        //String -> ReverseVowels
+        System.out.println("ReverseVowels");
+        String rv = "leetcode";
+        System.out.println(ReverseVowels.reverseVowels(rv));
 
 
 
