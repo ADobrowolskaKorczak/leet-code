@@ -1,4 +1,5 @@
 import arraystring.acronymofwords.AcronymOfWords;
+import arraystring.addstrings.AddStrings;
 import arraystring.arrayconditions.ArrayConditions;
 import arraystring.arrayfrompermutation.ArrayFromPermutation;
 import arraystring.arthmeticprogression.ArithmeticProgression;
@@ -732,6 +733,12 @@ public class Main {
         System.out.println("ReverseVowels");
         String rv = "leetcode";
         System.out.println(ReverseVowels.reverseVowels(rv));
+
+        //String -> AddStrings
+        System.out.println("AddStrings");
+        String num1 = "11";
+        String num2 = "123";
+        System.out.println(AddStrings.addStrings(num1, num2));
 
 
 
