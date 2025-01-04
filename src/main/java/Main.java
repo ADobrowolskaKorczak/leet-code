@@ -746,6 +746,7 @@ public class Main {
         String ss = "codeleet";
         int[] indices = {4,5,6,7,0,2,1,3};
         System.out.println(ShuffleString.restoreString(ss, indices));
+        System.out.println(ShuffleString.restoreString2(ss, indices));
 
 
 

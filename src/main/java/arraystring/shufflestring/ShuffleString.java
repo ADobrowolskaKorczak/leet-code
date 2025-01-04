@@ -26,5 +26,15 @@ public class ShuffleString {
         return sb.toString();
     }
 
+    public static String restoreString2(String s, int[] indices) {
+        char[] arr = new char[indices.length];
+        StringBuilder sb = new StringBuilder();
+        for (int i = 0; i < indices.length; i++) {
+            arr[indices[i]] = s.charAt(i);
+        }
+        sb.append(arr);
+        return sb.toString();
+    }
+
 
 }
