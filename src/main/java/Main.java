@@ -56,6 +56,7 @@ import arraystring.reversewords.ReverseWordsInString;
 import arraystring.rotatearray.RotateArray;
 import arraystring.runningsum.RunningSum;
 import arraystring.shufflearray.ShuffleArray;
+import arraystring.shufflestring.ShuffleString;
 import arraystring.signproductarray.SignProductArray;
 import arraystring.sortingthesentence.SortingTheSentence;
 import arraystring.sortpeople.SortThePeople;
@@ -739,6 +740,12 @@ public class Main {
         String num1 = "11";
         String num2 = "123";
         System.out.println(AddStrings.addStrings(num1, num2));
+
+        //String -> ShuffleString
+        System.out.println("ShuffleString");
+        String ss = "codeleet";
+        int[] indices = {4,5,6,7,0,2,1,3};
+        System.out.println(ShuffleString.restoreString(ss, indices));
 
 
 
