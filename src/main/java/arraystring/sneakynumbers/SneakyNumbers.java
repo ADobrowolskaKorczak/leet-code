@@ -12,6 +12,12 @@ Output: [0,1]
  */
 
 
+import java.text.Collator;
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.Map;
+import java.util.stream.Collectors;
+
 public class SneakyNumbers {
 
     public static int[] getSneakyNumbers(int[] nums) {
@@ -26,6 +32,17 @@ public class SneakyNumbers {
             }
         }
         return ansArr;
+    }
+
+    public static int[] getSneakyNumbers2(int[] nums) {
+        return Arrays.stream(nums)
+                .boxed()
+                .collect(Collectors.groupingBy(x -> x, Collectors.counting()))
+                .entrySet()
+                .stream()
+                .filter(x -> x.getValue() > 1)
+                .mapToInt(Map.Entry::getKey)
+                .toArray();
     }
 
 

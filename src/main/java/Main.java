@@ -753,6 +753,7 @@ public class Main {
         System.out.println("SneakyNumbers");
         int[] sn ={0,0,1,1};
         System.out.println(Arrays.toString(SneakyNumbers.getSneakyNumbers(sn)));
+        System.out.println(Arrays.toString(SneakyNumbers.getSneakyNumbers2(sn)));
 
 
 
