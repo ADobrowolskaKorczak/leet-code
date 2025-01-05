@@ -58,6 +58,7 @@ import arraystring.runningsum.RunningSum;
 import arraystring.shufflearray.ShuffleArray;
 import arraystring.shufflestring.ShuffleString;
 import arraystring.signproductarray.SignProductArray;
+import arraystring.sneakynumbers.SneakyNumbers;
 import arraystring.sortingthesentence.SortingTheSentence;
 import arraystring.sortpeople.SortThePeople;
 import arraystring.sortstudents.SortStudents;
@@ -747,6 +748,12 @@ public class Main {
         int[] indices = {4,5,6,7,0,2,1,3};
         System.out.println(ShuffleString.restoreString(ss, indices));
         System.out.println(ShuffleString.restoreString2(ss, indices));
+
+        //Array -> SneakyNumbers
+        System.out.println("SneakyNumbers");
+        int[] sn ={0,0,1,1};
+        System.out.println(Arrays.toString(SneakyNumbers.getSneakyNumbers(sn)));
+
 
 
 
