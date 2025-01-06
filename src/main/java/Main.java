@@ -41,6 +41,7 @@ import arraystring.minimumnumbergame.MinNumberGame;
 import arraystring.minimumnumberofdecibinary.MinNumberOfDeciBinary;
 import arraystring.minoperationmoveballs.MinOperationMoveBalls;
 import arraystring.movezeroes.MoveZeroes;
+import arraystring.multiplicationoperation.MultiplicationOperations;
 import arraystring.numberofgoodpairs.NumberOfGoodPairs;
 import arraystring.numberofsegments.NumberOfSegments;
 import arraystring.pascalstriangle.PascalsTriangle;
@@ -754,6 +755,14 @@ public class Main {
         int[] sn ={0,0,1,1};
         System.out.println(Arrays.toString(SneakyNumbers.getSneakyNumbers(sn)));
         System.out.println(Arrays.toString(SneakyNumbers.getSneakyNumbers2(sn)));
+
+        //Array -> MultiplicationOperations
+        System.out.println("MultiplicationOperations");
+        int[] mo = {2,1,3,5,6};
+        int mok = 5;
+        int multiplier = 2;
+        System.out.println(Arrays.toString(MultiplicationOperations.getFinalState(mo, mok, multiplier)));
+
 
 
 
