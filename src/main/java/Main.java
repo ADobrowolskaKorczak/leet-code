@@ -30,6 +30,7 @@ import arraystring.jewelsandstones.JewelsAndStones;
 import arraystring.lengthoflasword.LengthLastWord;
 import arraystring.longestcommonprefix.LongestCommonPrefix;
 import arraystring.majorityelement.MajorityElement;
+import arraystring.maxaveragesumarray.MaxAverageSubarray;
 import arraystring.maximumingeneratedarray.GetMaximumInGeneratedArray;
 import arraystring.maxnumberofwords.MaximumNumberOfWords;
 import arraystring.maxnumberstringpairs.MaxNumberOfStringPairs;
@@ -762,6 +763,12 @@ public class Main {
         int mok = 5;
         int multiplier = 2;
         System.out.println(Arrays.toString(MultiplicationOperations.getFinalState(mo, mok, multiplier)));
+
+        //Array -> MaxAverageSubarray
+        System.out.println("MaxAverageSubarray");
+        int[] mas = {0,4,0,3,2};
+        int k_mas = 1;
+        System.out.println(MaxAverageSubarray.findMaxAverage(mas, k_mas));
 
 
 
