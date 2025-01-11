@@ -16,6 +16,7 @@ import arraystring.countingwordsprefix.CountingWordsPrefix;
 import arraystring.defangingipaddress.DefangingIPAddress;
 import arraystring.destinationcity.DestinationCity;
 import arraystring.differencesumanddigitsum.SumAndDigitSum;
+import arraystring.distinctcharacters.DistinctCharacters;
 import arraystring.employeestarget.EmployeesTarget;
 import arraystring.faultykeyboard.FaultyKeyboard;
 import arraystring.finalvalue.FinalValue;
@@ -25,6 +26,7 @@ import arraystring.findwordscontainingcharacter.FindWordsContainingCharacter;
 import arraystring.firstuniquecharacter.FirstUniqueCharacter;
 import arraystring.fizzbuzz.FizzBuzz;
 import arraystring.goalparserinterpretation.GoalParserInterpretation;
+import arraystring.goodpairs.GoodPairs;
 import arraystring.howmanynumbersaresmaller.HowManyNumbersAreSmaller;
 import arraystring.jewelsandstones.JewelsAndStones;
 import arraystring.lengthoflasword.LengthLastWord;
@@ -105,6 +107,7 @@ import twopointers.issubsequence.IsSubsequence;
 import twopointers.numberofarithmetictriples.NumberOfArithmeticTriples;
 import twopointers.palindromicstring.FindFirstPalindromicString;
 import twopointers.validpalindrome.ValidPalindrome;
+import widestverticalarea.WidestVerticalArea;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -769,6 +772,24 @@ public class Main {
         int[] mas = {0,4,0,3,2};
         int k_mas = 1;
         System.out.println(MaxAverageSubarray.findMaxAverage(mas, k_mas));
+
+        //Array -> WidestVerticalArea
+        System.out.println("WidestVerticalArea");
+        int[][] wca = {{3,1},{9,0},{1,0},{1,4},{5,3},{8,8}};
+        System.out.println(WidestVerticalArea.maxWidthOfVerticalArea(wca));
+        System.out.println(WidestVerticalArea.maxWidthOfVerticalArea2(wca));
+
+        //String -> DistinctCharacters
+        System.out.println("DistinctCharacters");
+        String dc = "xyzzaz";
+        System.out.println(DistinctCharacters.countGoodSubstrings(dc));
+
+        //Array -> GoodPairs
+        System.out.println("GoodPairs");
+        int[] gpnum1 = {1,2,4,12};
+        int[] gpnum2 = {2,4};
+        int gpk = 3;
+        System.out.println(GoodPairs.numberOfPairs(gpnum1, gpnum2, gpk));
 
 
 
