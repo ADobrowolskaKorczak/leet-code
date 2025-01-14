@@ -17,6 +17,7 @@ import arraystring.defangingipaddress.DefangingIPAddress;
 import arraystring.destinationcity.DestinationCity;
 import arraystring.differencesumanddigitsum.SumAndDigitSum;
 import arraystring.distinctcharacters.DistinctCharacters;
+import arraystring.distinctstring.DistinctString;
 import arraystring.employeestarget.EmployeesTarget;
 import arraystring.faultykeyboard.FaultyKeyboard;
 import arraystring.finalvalue.FinalValue;
@@ -790,6 +791,14 @@ public class Main {
         int[] gpnum2 = {2,4};
         int gpk = 3;
         System.out.println(GoodPairs.numberOfPairs(gpnum1, gpnum2, gpk));
+
+        //String -> DistinctString
+        System.out.println("DistinctString");
+        String[] ds = {"a","b","a"};
+        int dsk = 3;
+        System.out.println(DistinctString.kthDistinct(ds, dsk));
+
+
 
 
 
