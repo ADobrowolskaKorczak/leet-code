@@ -33,6 +33,7 @@ import arraystring.jewelsandstones.JewelsAndStones;
 import arraystring.lengthoflasword.LengthLastWord;
 import arraystring.longestcommonprefix.LongestCommonPrefix;
 import arraystring.majorityelement.MajorityElement;
+import arraystring.matchingrule.MatchingRule;
 import arraystring.maxaveragesumarray.MaxAverageSubarray;
 import arraystring.maximumingeneratedarray.GetMaximumInGeneratedArray;
 import arraystring.maxnumberofwords.MaximumNumberOfWords;
@@ -113,6 +114,8 @@ import widestverticalarea.WidestVerticalArea;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
 import static math.convertthetemperature.ConvertTheTemperature.convertTemperature;
 import static math.convertthetemperature.ConvertTheTemperature.convertTemperature2;
@@ -797,6 +800,17 @@ public class Main {
         String[] ds = {"a","b","a"};
         int dsk = 3;
         System.out.println(DistinctString.kthDistinct(ds, dsk));
+
+        //String -> MatchingRule
+        System.out.println("MatchingRule");
+        List<List<String>> itemMR = Stream.of(
+                Stream.of("phone","blue","pixel").collect(Collectors.toList()),
+                Stream.of("computer","silver","phone").collect(Collectors.toList()),
+                Stream.of("phone","gold","iphone").collect(Collectors.toList())
+        ).collect(Collectors.toList());
+        String ruleKeyMR = "type";
+        String ruleValueMR = "phone";
+        System.out.println(MatchingRule.countMatches(itemMR, ruleKeyMR, ruleValueMR));
 
 
 
