@@ -811,6 +811,7 @@ public class Main {
         String ruleKeyMR = "type";
         String ruleValueMR = "phone";
         System.out.println(MatchingRule.countMatches(itemMR, ruleKeyMR, ruleValueMR));
+        System.out.println(MatchingRule.countMatches2(itemMR, ruleKeyMR, ruleValueMR));
 
 
 
