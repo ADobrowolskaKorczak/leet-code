@@ -75,6 +75,7 @@ import arraystring.sumdifferences.SumDifferences;
 import arraystring.timetocollectgarbage.TimeToCollectGarbage;
 import arraystring.tolowercase.ToLowerCase;
 import arraystring.truncatesentence.TruncateSentence;
+import arraystring.twosum.TwoSum;
 import arraystring.validanagram.ValidAnagram;
 import arraystring.wordpattern.WordPattern;
 import bitmanipulation.singlenumber.SingleNumber;
@@ -812,6 +813,12 @@ public class Main {
         String ruleValueMR = "phone";
         System.out.println(MatchingRule.countMatches(itemMR, ruleKeyMR, ruleValueMR));
         System.out.println(MatchingRule.countMatches2(itemMR, ruleKeyMR, ruleValueMR));
+
+        //Array -> TwoSum
+        System.out.println("TwoSum");
+        int[] arrts = {3,2,4};
+        int targetts = 6;
+        System.out.println(Arrays.toString(TwoSum.twoSum(arrts, targetts)));
 
 
 
