@@ -22,30 +22,38 @@ The element 1 occurs at the indices 0 and 3.
 public class ContainsDuplicate {
 
     public static boolean containsDuplicate(int[] nums) {
-        boolean b = false;
         Map<Integer, Long> map = Arrays.stream(nums)
                 .boxed()
                 .collect(Collectors.groupingBy(Function.identity(), Collectors.counting()));
         for (Long i : map.values()) {
             if (i >= 2) {
-                b = true;
+                return true;
             }
         }
-        return b;
+        return false;
     }
 
     public static boolean containsDuplicate2(int[] nums) {
-        boolean b = false;
         int a = nums.length;
-        Set set = new HashSet();
+        Set<Integer> set = new HashSet<>();
+        for (int num : nums) {
+            set.add(num);
+        }
+        return nums.length != set.size();
+    }
+
+    public static boolean containsDuplicate3(int[] nums) {
+        int a = nums.length;
+        Set<Integer> set = new HashSet<>();
         for (int i = 0; i < nums.length; i++) {
+            if (set.contains(nums[i])) {
+                return true;
+            }
             set.add(nums[i]);
         }
-        if (nums.length != set.size()) {
-            b = true;
-        }
-        return b;
+        return false;
     }
+
 
 
 
