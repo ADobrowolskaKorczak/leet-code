@@ -825,6 +825,7 @@ public class Main {
         System.out.println("ContainsDuplicate");
         int[] arrcd = {1,2,3,1};
         System.out.println(ContainsDuplicate.containsDuplicate(arrcd));
+        System.out.println(ContainsDuplicate.containsDuplicate2(arrcd));
 
 
 
