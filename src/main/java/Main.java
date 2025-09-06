@@ -12,6 +12,7 @@ import arraystring.checkifsentenceispangram.CheckIfSentenceIsPangram;
 import arraystring.checktwostingsarraysequivalent.CheckIfTwoStringArraysAreEquivalent;
 import arraystring.concatenationofarray.ArrayConcatenation;
 import arraystring.consistentstring.ConsistentString;
+import arraystring.containsduplicate.ContainsDuplicate;
 import arraystring.countingwordsprefix.CountingWordsPrefix;
 import arraystring.defangingipaddress.DefangingIPAddress;
 import arraystring.destinationcity.DestinationCity;
@@ -819,6 +820,12 @@ public class Main {
         int[] arrts = {3,2,4};
         int targetts = 6;
         System.out.println(Arrays.toString(TwoSum.twoSum(arrts, targetts)));
+
+        //Array -> ContainsDuplicate
+        System.out.println("ContainsDuplicate");
+        int[] arrcd = {1,2,3,1};
+        System.out.println(ContainsDuplicate.containsDuplicate(arrcd));
+
 
 
 
