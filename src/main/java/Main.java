@@ -75,6 +75,7 @@ import arraystring.stringscore.StringScore;
 import arraystring.sumdifferences.SumDifferences;
 import arraystring.timetocollectgarbage.TimeToCollectGarbage;
 import arraystring.tolowercase.ToLowerCase;
+import arraystring.transformarraybyparity.TransformArrayByParity;
 import arraystring.truncatesentence.TruncateSentence;
 import arraystring.twosum.TwoSum;
 import arraystring.validanagram.ValidAnagram;
@@ -827,6 +828,12 @@ public class Main {
         System.out.println(ContainsDuplicate.containsDuplicate(arrcd));
         System.out.println(ContainsDuplicate.containsDuplicate2(arrcd));
         System.out.println(ContainsDuplicate.containsDuplicate3(arrcd));
+
+        //Array -> TransformArrayByParity
+        System.out.println("TransformArrayByParity");
+        int[] arrtabp = {4,3,2,1};
+        System.out.println(Arrays.toString(TransformArrayByParity.transformArray(arrtabp)));
+        System.out.println(Arrays.toString(TransformArrayByParity.transformArray2(arrtabp)));
 
 
 
