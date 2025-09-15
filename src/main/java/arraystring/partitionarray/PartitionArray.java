@@ -81,5 +81,28 @@ public class PartitionArray {
     }
 
 
+    public static int[] pivotArray3(int[] nums, int pivot) {
+        int[] ans = new int[nums.length];
+        int idx = 0;
+        for (int num : nums) {
+            if (num < pivot) {
+                ans[idx] = num;
+                idx++;
+            }
+        }
+        for (int num : nums) {
+            if (num == pivot) {
+                ans[idx] = num;
+                idx++;
+            }
+        }
+        for (int num : nums) {
+            if (num > pivot) {
+                ans[idx] = num;
+                idx++;
+            }
+        }
+        return ans;
+    }
 
 }

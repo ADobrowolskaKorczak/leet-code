@@ -842,6 +842,7 @@ public class Main {
         int papivot = 10;
         System.out.println(Arrays.toString(PartitionArray.pivotArray(pa, papivot)));
         System.out.println(Arrays.toString(PartitionArray.pivotArray2(pa, papivot)));
+        System.out.println(Arrays.toString(PartitionArray.pivotArray3(pa, papivot)));
 
 
 
