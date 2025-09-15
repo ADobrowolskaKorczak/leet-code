@@ -841,6 +841,7 @@ public class Main {
         int[] pa = {9,12,5,10,14,3,10};
         int papivot = 10;
         System.out.println(Arrays.toString(PartitionArray.pivotArray(pa, papivot)));
+        System.out.println(Arrays.toString(PartitionArray.pivotArray2(pa, papivot)));
 
 
 
