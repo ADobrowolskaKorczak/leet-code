@@ -50,6 +50,7 @@ import arraystring.movezeroes.MoveZeroes;
 import arraystring.multiplicationoperation.MultiplicationOperations;
 import arraystring.numberofgoodpairs.NumberOfGoodPairs;
 import arraystring.numberofsegments.NumberOfSegments;
+import arraystring.partitionarray.PartitionArray;
 import arraystring.pascalstriangle.PascalsTriangle;
 import arraystring.pascalstriangleII.PascalsTriangleTwo;
 import arraystring.permutationdifference.PermutationDifference;
@@ -834,6 +835,12 @@ public class Main {
         int[] arrtabp = {4,3,2,1};
         System.out.println(Arrays.toString(TransformArrayByParity.transformArray(arrtabp)));
         System.out.println(Arrays.toString(TransformArrayByParity.transformArray2(arrtabp)));
+
+        //Array -> PartitionArray
+        System.out.println("PartitionArray");
+        int[] pa = {9,12,5,10,14,3,10};
+        int papivot = 10;
+        System.out.println(Arrays.toString(PartitionArray.pivotArray(pa, papivot)));
 
 
 
