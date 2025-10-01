@@ -57,6 +57,7 @@ import arraystring.permutationdifference.PermutationDifference;
 import arraystring.pivotindex.PivotIndex;
 import arraystring.removeduplicates.RemoveDuplicates;
 import arraystring.removeelement.RemoveElement;
+import arraystring.reversedegreestring.ReverseDegreeOfString;
 import arraystring.reverseprefixword.ReversePrefixWord;
 import arraystring.reversestring.ReverseString;
 import arraystring.reversevowels.ReverseVowels;
@@ -843,6 +844,11 @@ public class Main {
         System.out.println(Arrays.toString(PartitionArray.pivotArray(pa, papivot)));
         System.out.println(Arrays.toString(PartitionArray.pivotArray2(pa, papivot)));
         System.out.println(Arrays.toString(PartitionArray.pivotArray3(pa, papivot)));
+
+        //String -> ReverseDegreeOfString
+        System.out.println("ReverseDegreeOfString");
+        String rds = "abc";
+        System.out.println(ReverseDegreeOfString.reverseDegree(rds));
 
 
 
