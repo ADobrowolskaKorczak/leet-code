@@ -15,5 +15,13 @@ public class ReverseDegreeOfString {
         return ret;
     }
 
+    public static int reverseDegree2(String s) {
+        int ret = 0;
+        for (int i = 0; i < s.length(); i++) {
+            ret += ('z' - s.charAt(i) + 1)*(i+1);
+        }
+        return ret;
+    }
+
 
 }

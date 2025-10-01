@@ -849,6 +849,7 @@ public class Main {
         System.out.println("ReverseDegreeOfString");
         String rds = "abc";
         System.out.println(ReverseDegreeOfString.reverseDegree(rds));
+        System.out.println(ReverseDegreeOfString.reverseDegree2(rds));
 
 
 
