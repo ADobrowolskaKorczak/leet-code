@@ -48,6 +48,7 @@ import arraystring.minimumnumberofdecibinary.MinNumberOfDeciBinary;
 import arraystring.minoperationmoveballs.MinOperationMoveBalls;
 import arraystring.movezeroes.MoveZeroes;
 import arraystring.multiplicationoperation.MultiplicationOperations;
+import arraystring.nestingdepth.NestingDepthOfParentheses;
 import arraystring.numberofgoodpairs.NumberOfGoodPairs;
 import arraystring.numberofsegments.NumberOfSegments;
 import arraystring.partitionarray.PartitionArray;
@@ -850,6 +851,11 @@ public class Main {
         String rds = "abc";
         System.out.println(ReverseDegreeOfString.reverseDegree(rds));
         System.out.println(ReverseDegreeOfString.reverseDegree2(rds));
+
+        //String -> NestingDepthOfParentheses
+        System.out.println("NestingDepthOfParentheses");
+        String ndop = "(1)+((2))+(((3)))";
+        System.out.println(NestingDepthOfParentheses.maxDepth(ndop));
 
 
 
