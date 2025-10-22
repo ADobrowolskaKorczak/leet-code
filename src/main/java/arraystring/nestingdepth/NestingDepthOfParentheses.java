@@ -29,5 +29,21 @@ public class NestingDepthOfParentheses {
         return coll.last();
     }
 
+    public static int maxDepth2(String s) {
+        int out = 0;
+        int max = out;
+        for (int i = 0; i < s.length(); i++) {
+            if (s.charAt(i) == '(') {
+                out++;
+            } else if (s.charAt(i) == ')') {
+                out--;
+            }
+            if (out > max) {
+                max = out;
+            }
+        }
+        return max;
+    }
+
 
 }
