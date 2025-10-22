@@ -26,5 +26,14 @@ public class MinOperations {
         return op;
     }
 
+    public static int minOperations2(int[] nums, int k) {
+        int op = 0;
+        int sum = 0;
+        for (int i = 0; i < nums.length; i++) {
+            sum += nums[i];
+        }
+        return sum % k;
+    }
+
 
 }

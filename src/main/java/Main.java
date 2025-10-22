@@ -864,6 +864,7 @@ public class Main {
         int mokk = 6;
         int[] monums = {3,2};
         System.out.println(MinOperations.minOperations(monums, mokk));
+        System.out.println(MinOperations.minOperations2(monums, mokk));
 
 
 
