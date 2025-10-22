@@ -46,6 +46,7 @@ import arraystring.middleindex.MiddleIndex;
 import arraystring.minimumnumbergame.MinNumberGame;
 import arraystring.minimumnumberofdecibinary.MinNumberOfDeciBinary;
 import arraystring.minoperationmoveballs.MinOperationMoveBalls;
+import arraystring.minoperations.MinOperations;
 import arraystring.movezeroes.MoveZeroes;
 import arraystring.multiplicationoperation.MultiplicationOperations;
 import arraystring.nestingdepth.NestingDepthOfParentheses;
@@ -856,6 +857,14 @@ public class Main {
         System.out.println("NestingDepthOfParentheses");
         String ndop = "(1)+((2))+(((3)))";
         System.out.println(NestingDepthOfParentheses.maxDepth(ndop));
+        System.out.println(NestingDepthOfParentheses.maxDepth2(ndop));
+
+        //Array -> MinOperations
+        System.out.println("MinOperations");
+        int mokk = 6;
+        int[] monums = {3,2};
+        System.out.println(MinOperations.minOperations(monums, mokk));
+
 
 
 
