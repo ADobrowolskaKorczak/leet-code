@@ -15,6 +15,9 @@ Explanation:
 The finishing order is [3, 1, 2, 5, 4]. Therefore, the finishing order of your friends is [3, 1, 4].
  */
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class RestoreFinishingOrder {
     public static int[] recoverOrder(int[] order, int[] friends) {
         int[] ans = new int[friends.length];
@@ -26,6 +29,21 @@ public class RestoreFinishingOrder {
                 }
             }
         }
+        return ans;
+    }
+
+    public static int[] recoverOrder2(int[] order, int[] friends) {
+        int[] ans = new int[friends.length];
+        int idx = 0;
+        List<Integer> friendsList = new ArrayList<>();
+        for (int i = 0 ; i < friends.length; i++) {
+            friendsList.add(friends[i]);
+        }
+       for (int i = 0; i < order.length; i++) {
+           if (friendsList.contains(order[i])) {
+               ans[idx++] = order[i];
+           }
+       }
         return ans;
     }
 

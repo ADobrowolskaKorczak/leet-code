@@ -872,6 +872,7 @@ public class Main {
         int[] rfo1 = {3,1,2,5,4};
         int[] rfo2 = {1,3,4};
         System.out.println(Arrays.toString(RestoreFinishingOrder.recoverOrder(rfo1, rfo2)));
+        System.out.println(Arrays.toString(RestoreFinishingOrder.recoverOrder2(rfo1, rfo2)));
 
 
 
