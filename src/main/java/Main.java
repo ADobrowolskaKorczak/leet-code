@@ -882,6 +882,7 @@ public class Main {
         System.out.println(ReversePrefixOfWord.reversePrefix(rpofw, rpofch));
         System.out.println(ReversePrefixOfWord.reversePrefix2(rpofw, rpofch));
         System.out.println(ReversePrefixOfWord.reversePrefix3(rpofw, rpofch));
+        System.out.println(ReversePrefixOfWord.reversePrefix4(rpofw, rpofch));
 
 
 

@@ -46,7 +46,11 @@ Reverse the part of word from 0 to 3 (inclusive), the resulting string is "dcbae
         return ans.toString();
     }
 
-
+    public static String reversePrefix4(String word, char ch) {
+        StringBuilder ans = new StringBuilder();
+        return ans.append(word.substring(0,word.indexOf(ch) + 1)).reverse()
+                .append(word, word.indexOf(ch) + 1, word.length()).toString();
+    }
 
 
 }
