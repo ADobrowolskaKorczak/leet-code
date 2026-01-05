@@ -62,6 +62,7 @@ import arraystring.removeelement.RemoveElement;
 import arraystring.restorefinishingorder.RestoreFinishingOrder;
 import arraystring.reversedegreestring.ReverseDegreeOfString;
 import arraystring.reverseprefixword.ReversePrefixWord;
+import arraystring.reverseprexifofword.ReversePrefixOfWord;
 import arraystring.reversestring.ReverseString;
 import arraystring.reversevowels.ReverseVowels;
 import arraystring.reversewords.ReverseWordsInString;
@@ -873,6 +874,13 @@ public class Main {
         int[] rfo2 = {1,3,4};
         System.out.println(Arrays.toString(RestoreFinishingOrder.recoverOrder(rfo1, rfo2)));
         System.out.println(Arrays.toString(RestoreFinishingOrder.recoverOrder2(rfo1, rfo2)));
+
+        //String -> ReversePrefixOfWord
+        System.out.println("ReversePrefixOfWord");
+        String rpofw = "abcdefd";
+        char rpofch = 'd';
+        System.out.println(ReversePrefixOfWord.reversePrefix(rpofw, rpofch));
+        System.out.println(ReversePrefixOfWord.reversePrefix2(rpofw, rpofch));
 
 
 
