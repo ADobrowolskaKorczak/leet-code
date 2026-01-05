@@ -881,6 +881,7 @@ public class Main {
         char rpofch = 'd';
         System.out.println(ReversePrefixOfWord.reversePrefix(rpofw, rpofch));
         System.out.println(ReversePrefixOfWord.reversePrefix2(rpofw, rpofch));
+        System.out.println(ReversePrefixOfWord.reversePrefix3(rpofw, rpofch));
 
 
 
