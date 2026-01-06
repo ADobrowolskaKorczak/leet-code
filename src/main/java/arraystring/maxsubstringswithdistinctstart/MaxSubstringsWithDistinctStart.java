@@ -29,5 +29,13 @@ public class MaxSubstringsWithDistinctStart {
         return chars.size();
     }
 
+    public static int maxDistinct2(String s) {
+        Set<Character> chars = new HashSet<>();
+        for (char c : s.toCharArray()) {
+            chars.add(c);
+        }
+        return chars.size();
+    }
+
 
 }

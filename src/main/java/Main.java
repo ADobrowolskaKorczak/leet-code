@@ -889,6 +889,7 @@ public class Main {
         System.out.println("MaxSubstringsWithDistinctStart");
         String mswds = "mbbz";
         System.out.println(MaxSubstringsWithDistinctStart.maxDistinct(mswds));
+        System.out.println(MaxSubstringsWithDistinctStart.maxDistinct2(mswds));
 
 
 
