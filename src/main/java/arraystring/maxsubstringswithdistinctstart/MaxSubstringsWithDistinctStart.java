@@ -37,5 +37,9 @@ public class MaxSubstringsWithDistinctStart {
         return chars.size();
     }
 
+    public static int maxDistinct3(String s) {
+        return (int) s.chars().distinct().count();
+    }
+
 
 }
