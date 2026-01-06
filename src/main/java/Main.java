@@ -39,6 +39,7 @@ import arraystring.maxaveragesumarray.MaxAverageSubarray;
 import arraystring.maximumingeneratedarray.GetMaximumInGeneratedArray;
 import arraystring.maxnumberofwords.MaximumNumberOfWords;
 import arraystring.maxnumberstringpairs.MaxNumberOfStringPairs;
+import arraystring.maxsubstringswithdistinctstart.MaxSubstringsWithDistinctStart;
 import arraystring.mergesortedarray.MergeSortedArray;
 import arraystring.mergesortedarrays.MergeSortedArrays;
 import arraystring.mergestringsalternately.MergeStringsAlternately;
@@ -883,6 +884,11 @@ public class Main {
         System.out.println(ReversePrefixOfWord.reversePrefix2(rpofw, rpofch));
         System.out.println(ReversePrefixOfWord.reversePrefix3(rpofw, rpofch));
         System.out.println(ReversePrefixOfWord.reversePrefix4(rpofw, rpofch));
+
+        //String -> MaxSubstringsWithDistinctStart
+        System.out.println("MaxSubstringsWithDistinctStart");
+        String mswds = "mbbz";
+        System.out.println(MaxSubstringsWithDistinctStart.maxDistinct(mswds));
 
 
 
