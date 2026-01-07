@@ -10,6 +10,7 @@ import arraystring.canplaceflowers.CanPlaceFlowers;
 import arraystring.chackifwordsoccurprefix.CheckIfWordsOccurPrefix;
 import arraystring.checkifsentenceispangram.CheckIfSentenceIsPangram;
 import arraystring.checktwostingsarraysequivalent.CheckIfTwoStringArraysAreEquivalent;
+import arraystring.computealternatingsum.ComputeAlternatingSum;
 import arraystring.concatenationofarray.ArrayConcatenation;
 import arraystring.consistentstring.ConsistentString;
 import arraystring.containsduplicate.ContainsDuplicate;
@@ -891,6 +892,11 @@ public class Main {
         System.out.println(MaxSubstringsWithDistinctStart.maxDistinct(mswds));
         System.out.println(MaxSubstringsWithDistinctStart.maxDistinct2(mswds));
         System.out.println(MaxSubstringsWithDistinctStart.maxDistinct3(mswds));
+
+        //Array -> ComputeAlternatingSum
+        System.out.println("ComputeAlternatingSum");
+        int[] cas = {1,3,5,7};
+        System.out.println(ComputeAlternatingSum.alternatingSum(cas));
 
 
 
