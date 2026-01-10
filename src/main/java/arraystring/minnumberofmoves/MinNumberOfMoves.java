@@ -14,4 +14,18 @@ public class MinNumberOfMoves {
         return ans;
     }
 
+    public static int minMovesToSeat2(int[] seats, int[] students) {
+        int ans = 0;
+        int k = 0;
+        Arrays.sort(seats);
+        Arrays.sort(students);
+        while (k < seats.length) {
+            ans += Math.abs(seats[k] - students[k]);
+            k++;
+        }
+        return ans;
+    }
+
+
+
 }

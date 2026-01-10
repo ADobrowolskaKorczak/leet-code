@@ -904,6 +904,7 @@ public class Main {
         int[] seats = {3,1,5};
         int[] students = {2,7,4};
         System.out.println(MinNumberOfMoves.minMovesToSeat(seats, students));
+        System.out.println(MinNumberOfMoves.minMovesToSeat2(seats, students));
 
 
 
