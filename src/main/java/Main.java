@@ -47,6 +47,7 @@ import arraystring.mergestringsalternately.MergeStringsAlternately;
 import arraystring.middleindex.MiddleIndex;
 import arraystring.minimumnumbergame.MinNumberGame;
 import arraystring.minimumnumberofdecibinary.MinNumberOfDeciBinary;
+import arraystring.minnumberofmoves.MinNumberOfMoves;
 import arraystring.minoperationmoveballs.MinOperationMoveBalls;
 import arraystring.minoperations.MinOperations;
 import arraystring.movezeroes.MoveZeroes;
@@ -897,6 +898,12 @@ public class Main {
         System.out.println("ComputeAlternatingSum");
         int[] cas = {1,3,5,7};
         System.out.println(ComputeAlternatingSum.alternatingSum(cas));
+
+        //Array -> MinNumberOfMoves
+        System.out.println("MinNumberOfMoves");
+        int[] seats = {3,1,5};
+        int[] students = {2,7,4};
+        System.out.println(MinNumberOfMoves.minMovesToSeat(seats, students));
 
 
 
